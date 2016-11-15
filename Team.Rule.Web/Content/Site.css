@@ -1,0 +1,220 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*后台新分页*/
+.page-div {
+    float: left;
+    margin-top: 10px;
+    border-right: none;
+    width: 99.5%;
+}
+
+    .page-div a {
+        display: inline-block;
+        float: left;
+        padding: 8px 12px;
+        text-align: center;
+        border: 1px solid #dbdbdb;
+        font-size: 14px;
+        color: #323a45;
+        margin-right: 1px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        behavior: url(../PIE.htc);
+        background-color: #fff;
+    }
+
+        .page-div a:hover {
+            color: #14c4e6;
+        }
+
+    .page-div .page-now {
+        background-color: #14c4e6;
+        color: #fff;
+    }
+
+        .page-div .page-now:hover {
+            background-color: #14c4e6;
+            color: #fff;
+        }
+
+.sortpage-number {
+    margin-right: 3px;
+    font-size: 14px;
+    float: left;
+    color: #c4c4c4;
+    height: 30px;
+    line-height: 30px;
+}
+
+    .sortpage-number span {
+        margin: 0px 7px;
+    }
+
+
+/*－－表格－－*/
+.con-table {
+    border-top: 1px solid #e5e7eb;
+    width: 99.5%;
+    float: left;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+    .con-table thead {
+        color: #323a45;
+    }
+
+        .con-table thead tr td {
+            color: #323a45;
+            font-weight: bold;
+            font-weight: bold;
+        }
+
+    .con-table tr {
+        height: 35px;
+        line-height: 35px;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+        .con-table tr td {
+            border-left: 1px solid #e5e7eb;
+            border-right: 1px solid #e5e7eb;
+            text-align: left;
+            text-indent: 8px;
+            color: #777;
+        }
+
+            .con-table tr td a {
+                color: #54b5df;
+                padding-bottom: 2px;
+            }
+
+                .con-table tr td a:hover {
+                    border-bottom: 1px solid #54b5df;
+                }
+
+    .con-table tbody tr:hover {
+        background-color: #f4f4f4;
+    }
+
+    .con-table tr td input {
+        display: block;
+    }
+
+    .con-table .tr-bg {
+        background-color: #efefef;
+    }
+
+    .con-table .td-sign {
+        border-left: none;
+    }
+
+    .con-table .td-sign-1 {
+        background-color: #f9a94a;
+    }
+
+    .con-table .td-sign-2 {
+        background-color: #54b5dc;
+    }
+
+    .con-table .td-sign-3 {
+        background-color: #8fc556;
+    }
+
+    .con-table p {
+        width: 570px;
+        overflow: hidden;
+        height: 18px;
+    }
+
+        .con-table p span {
+            margin-right: 30px;
+        }
+
+    .con-table .p-font1 {
+        font: 14px/18px '宋体';
+        color: #5c5c5c;
+        width: 99%;
+    }
+
+    .con-table .p-font2 {
+        font: 12px/18px '宋体';
+        color: #c4c8cb;
+        width: 99%;
+    }
+
+.span-hut130 {
+    width: 130px;
+    float: left;
+    display: inline-block;
+    color: #777;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 25px;
+}
+
+.span-div {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    display: none;
+    background-color: #fff;
+    width: 150px;
+    height: 75px;
+    border: 1px solid #D4D4D4;
+    z-index: 10;
+}
+
+    .span-div ul li {
+        width: 100%;
+        height: 25px;
+        line-height: 25px;
+        border-bottom: 1px solid #D4D4D4;
+    }
+
+        .span-div ul li.noborder {
+            border-bottom: none;
+        }
+
+.con-table-tdl {
+    position: relative;
+}
+
+.con-table td.con-table-tdl:hover .span-div {
+    display: block;
+}
+
+/*表格内的标记*/
+.con-table tbody .tr-gray {
+    background-color: #e4e4e4;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+ul {
+    list-style-type: none;
+}

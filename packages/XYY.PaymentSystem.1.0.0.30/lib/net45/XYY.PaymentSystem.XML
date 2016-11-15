@@ -1,0 +1,875 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XYY.PaymentSystem</name>
+    </assembly>
+    <members>
+        <member name="T:XYY.PaymentSystem.Class.EnumExtension">
+            <summary>
+            获取枚举描述
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.Class.EnumExtension.GetDescription(System.Enum,System.Boolean)">
+            <summary>
+            获取枚举描述
+            </summary>
+            <param name="value"></param>
+            <param name="nameInstead"></param>
+            <returns></returns>
+        </member>
+        <member name="T:XYY.PaymentSystem.ExchangeMoney">
+            <summary>
+            兑换操作
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.ExpenseSystemBase">
+            <summary>
+            请求父类
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.ExpenseSystemBase.webApiUrl">
+            <summary>
+            异步请求实例//protected WebServicesSendAsync WebServicesSendAsync { get; set; }
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.ExpenseSystemBase.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.ExpenseSystemBase.#ctor(System.String,XYY.PaymentSystem.ExpenseSystemBase.AuthorizationType)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.ExpenseSystemBase.AuthenticationInfo">
+            <summary>
+            请求之前获取验证信息
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.ExpenseSystemBase.WebServicesSend">
+            <summary>
+            同步请求实例
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.ExpenseSystemBase.AuthorizationType">
+            <summary>
+            验证类型
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.ExpenseSystemBase.AuthorizationType.WebAuthorization">
+            <summary>
+            网页项目验证
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.ExpenseSystemBase.AuthorizationType.OtherAuthorization">
+            <summary>
+            其它验证信息
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.ExchangeMoney.UserExchangeMoney(System.Int32,System.Decimal,XYY.PaymentSystem.DTO.ExchangeAction)">
+            <summary>
+            兑换
+            </summary>
+            <param name="userID">当前兑换人（用户id）</param>
+            <param name="fee">兑换金额</param>
+            <param name="exchangeAction">兑换动作</param>
+            <returns></returns>
+        </member>
+        <member name="T:XYY.PaymentSystem.HTTPRequest.VirtualHTTPClient">
+            <summary>
+            请求客户端封装
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.HTTPRequest.VirtualHTTPClient.virtualHttpClient">
+            <summary>
+            请求客户端
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.VirtualHTTPClient.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.VirtualHTTPClient.AddRequestHeaders(System.String,System.String)">
+            <summary>
+            添加指定的标头及其值到 System.Net.Http.Headers.HttpHeaders 集合中
+            </summary>
+            <param name="key">要添加到集合中的标头</param>
+            <param name="value">标头的内容</param>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.VirtualHTTPClient.AddRequestHeaders">
+            <summary>
+             添加默认的标头及其值到 System.Net.Http.Headers.HttpHeaders 集合中
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.HTTPRequest.VirtualHTTPClient.VirtualHttpClient">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.HTTPRequest.WebServicesSend">
+            <summary>
+            请求方法封装（同步）
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.WebServicesSend.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="webApiUrl">服务地址</param>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.WebServicesSend.FormatUri(System.String,System.Object)">
+            <summary>
+            格式化uri地址
+            </summary>
+            <param name="uri">要请求的地址</param>
+            <param name="param">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.WebServicesSend.Get(System.String,System.Object)">
+            <summary>
+            Get请求
+            </summary>
+            <typeparam name="TResult">返回对象的类型</typeparam>
+            <param name="uri">请求将发送到的 URI</param>
+            <param name="param">要附加到请求uri的参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.WebServicesSend.Delete(System.String,System.Object)">
+            <summary>
+            Delete请求
+            </summary>
+            <param name="uri">请求将发送到的 URI</param>
+            <param name="param">要附加到请求uri的参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.WebServicesSend.Post(System.String,System.Object)">
+            <summary>
+            Post请求
+            </summary>
+            <param name="uri">请求将发送到的 URI</param>
+            <param name="value">要写入到请求的实体正文的值</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.WebServicesSend.Put(System.String,System.Object)">
+            <summary>
+            Put请求
+            </summary>
+            <typeparam name="TResult">返回对象的类型</typeparam>
+            <param name="uri">请求将发送到的 URI</param>
+            <param name="value">要写入到请求的实体正文的值</param>
+            <returns></returns>
+        </member>
+        <member name="P:XYY.PaymentSystem.HTTPRequest.WebServicesSend.OwnHttpClient">
+            <summary>
+            请求客户端
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.HTTPRequest.WebServicesSend.webApiUrl">
+            <summary>
+            请求地址
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.HTTPRequest.WebServicesSendAsync">
+            <summary>
+            请求方法封装（异步）
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.WebServicesSendAsync.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="webApiUrl">服务地址</param>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.WebServicesSendAsync.FormatUri(System.String,System.Object)">
+            <summary>
+            格式化uri地址
+            </summary>
+            <param name="uri">要请求的地址</param>
+            <param name="param">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.WebServicesSendAsync.GetAsync(System.String,System.Object)">
+            <summary>
+            Get请求
+            </summary>
+            <typeparam name="TResult">返回对象的类型</typeparam>
+            <param name="uri">请求将发送到的 URI</param>
+            <param name="param">要附加到请求uri的参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.WebServicesSendAsync.DeleteAsync(System.String,System.Object)">
+            <summary>
+            Delete请求
+            </summary>
+            <param name="uri">请求将发送到的 URI</param>
+            <param name="param">要附加到请求uri的参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.WebServicesSendAsync.PostAsync(System.String,System.Object)">
+            <summary>
+            Post请求
+            </summary>
+            <param name="uri">请求将发送到的 URI</param>
+            <param name="value">要写入到请求的实体正文的值</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.HTTPRequest.WebServicesSendAsync.PutAsync(System.String,System.Object)">
+            <summary>
+            Put请求
+            </summary>
+            <typeparam name="TResult">返回对象的类型</typeparam>
+            <param name="uri">请求将发送到的 URI</param>
+            <param name="value">要写入到请求的实体正文的值</param>
+            <returns></returns>
+        </member>
+        <member name="P:XYY.PaymentSystem.HTTPRequest.WebServicesSendAsync.OwnHttpClient">
+            <summary>
+            请求客户端
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.HTTPRequest.WebServicesSendAsync.webApiUrl">
+            <summary>
+            请求地址
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.IncomeManage">
+            <summary>
+            收益
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.IncomeManage.AddIncome(XYY.PaymentSystem.DTO.IncomeDto)">
+            <summary>
+            添加收益
+            </summary>
+            <param name="value">收益对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:XYY.PaymentSystem.RechargeManage">
+            <summary>
+            充值活动管理
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.RechargeManage.Get(XYY.PaymentSystem.DTO.RechargeActionCode,System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Int32,System.Int32[])">
+            <summary>
+            
+            </summary>
+            <param name="actionCode"></param>
+            <param name="isDisable"></param>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <param name="rechargeActivityID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.RechargeManage.GetRechargeActivities(XYY.PaymentSystem.DTO.RechargeActionCode,System.Int32[])">
+            <summary>
+            获取充值活动信息
+            </summary>
+            <param name="actionCode">活动枚举code</param>
+            <param name="keyID">主键id</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.RechargeManage.GetRechargeActivitiesPhone(XYY.PaymentSystem.DTO.RechargeActionCode,System.Int32[])">
+            <summary>
+            手机端获取充值活动信息
+            </summary>
+            <param name="actionCode">活动枚举code</param>
+            <param name="keyID">主键id</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.RechargeManage.Get(System.Int32)">
+            <summary>
+            获取单一活动
+            </summary>
+            <param name="id">活动id</param>
+            <returns></returns>
+        </member>
+        <member name="T:XYY.PaymentSystem.ServiceManage">
+            <summary>
+            服务管理
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.ServiceManage.Get(System.Int32)">
+            <summary>
+            获取服务信息
+            </summary>
+            <param name="serviceID">服务id</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.ServiceManage.GetServicePrice(System.Int32,System.Int32,XYY.PaymentSystem.DTO.TimeType,System.Nullable{System.Int32})">
+            <summary>
+            获取服务价格
+            </summary>
+            <param name="serviceID">服务id</param>
+            <param name="timeSpan">时长</param>
+            <param name="timeType">时长单位</param>
+            <param name="discountID">折扣id</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.ServiceManage.Get(System.Nullable{XYY.PaymentSystem.DTO.Profession},System.Nullable{System.Boolean})">
+            <summary>
+            获取服务列表
+            </summary>
+            <param name="profession">可见身份</param>
+            <param name="isDelete">是否删除</param>
+            <param name="userID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.ServiceManage.AddSystemService(XYY.PaymentSystem.DTO.SystemServiceDto)">
+            <summary>
+            添加服务
+            </summary>
+            <param name="value">服务对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.ServiceManage.UpDateSystemService(XYY.PaymentSystem.DTO.SystemServiceDto)">
+            <summary>
+            修改服务信息
+            </summary>
+            <param name="value">服务对象</param>
+        </member>
+        <member name="M:XYY.PaymentSystem.ServiceManage.UpDateSystemServiceState(System.Int32,System.Boolean)">
+            <summary>
+            修改服务状态
+            </summary>
+            <param name="id">服务id</param>
+            <param name="isDelete">状态</param>
+        </member>
+        <member name="T:XYY.PaymentSystem.ServicePermissionsManage">
+            <summary>
+            服务权限
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.ServicePermissionsManage.Get(System.Nullable{System.Int32},System.Int32)">
+            <summary>
+            获取服务权限列表
+            </summary>
+            <param name="pageIndex">当前页码</param>
+            <param name="pageSize">每页大小</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.ServicePermissionsManage.UpDateServicePermissions(XYY.PaymentSystem.DTO.ServicePermissionsDto)">
+            <summary>
+            更新服务权限信息
+            </summary>
+            <param name="value">服务权限信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.ServicePermissionsManage.GetServicePermissions(System.Int32,System.Int32)">
+            <summary>
+            分页获取
+            </summary>
+            <param name="pageIndex">当前页码</param>
+            <param name="pageSize">每页大小</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.ServicePermissionsManage.GetServicePermissionsAll">
+            <summary>
+            获取所有权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.ServicePermissionsManage.GetServicePermissions(System.Int32)">
+            <summary>
+            获取单一服务权限
+            </summary>
+            <param name="permissionID">权限id</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.ServicePermissionsManage.CheckUserPermissions(System.Int32,XYY.PaymentSystem.DTO.PermessionType)">
+            <summary>
+            检测用户服务权限
+            </summary>
+            <param name="userID">用户id</param>
+            <param name="permessionType">权限枚举</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.ServicePermissionsManage.AddServicePermissions(XYY.PaymentSystem.DTO.ServicePermissionsDto)">
+            <summary>
+            添加服务权限
+            </summary>
+            <param name="value">服务权限</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.ServicePermissionsManage.Delete(System.Int32)">
+            <summary>
+            删除服务权限
+            </summary>
+            <param name="permessionID">服务权限id</param>
+            <returns></returns>
+        </member>
+        <member name="T:XYY.PaymentSystem.ShortMessageAccount">
+            <summary>
+            短信剩余数量
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.ShortMessageAccount.Get(System.Int32[])">
+            <summary>
+            获取用户短信数量接口
+            </summary>
+            <param name="UserID">用户id</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.SystemDonateManage.AddSystemDonate(XYY.PaymentSystem.DTO.SystemDonateDto)">
+            <summary>
+            添加系统赠送
+            </summary>
+            <param name="value">系统赠送对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.SystemDonateManage.AddSystemDonate(XYY.PaymentSystem.DTO.DonateOnceDto)">
+            <summary>
+            添加一次性赠送
+            </summary>
+            <param name="value">系统赠送对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:XYY.PaymentSystem.SystemRewardManage">
+            <summary>
+            系统奖励
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.SystemRewardManage.UpDateApplyState(System.String,XYY.PaymentSystem.DTO.TradenoState)">
+            <summary>
+            更新奖励订单
+            </summary>
+            <param name="rewardFlag">流水单号</param>
+            <param name="tradenoState">状态</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.SystemRewardManage.GetTable(System.Nullable{XYY.PaymentSystem.DTO.TradenoState},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Int32,System.Int32)">
+            <summary>
+            获取奖励列表信息
+            </summary>
+            <param name="tradenoState">状态</param>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="pageIndex">当前页码</param>
+            <param name="pageSize">每页大小</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.SystemRewardManage.Get(System.String)">
+            <summary>
+            获取奖励详情信息
+            </summary>
+            <param name="rewardFlag">申请id</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.SystemRewardManage.CreateAward(XYY.PaymentSystem.DTO.RewardDetailsDto)">
+            <summary>
+            创建奖励信息
+            </summary>
+            <param name="value">奖励对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.SystemRewardManage.CreateAward(System.String,System.String,System.String,System.Int32,System.Decimal,XYY.PaymentSystem.DTO.MoneyType)">
+            <summary>
+            创建奖励信息（单人）
+            </summary>
+            <param name="applicant">申请人姓名</param>
+            <param name="details">描述</param>
+            <param name="rewardReason">奖励因由</param>
+            <param name="userID">用户id</param>
+            <param name="fee">金额</param>
+            <param name="moneyType">金额类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.SystemRewardManage.UpDate(XYY.PaymentSystem.DTO.RewardDetailsDto)">
+            <summary>
+            修改奖励信息
+            </summary>
+            <param name="value">奖励对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.SystemRewardManage.Delete(System.String)">
+            <summary>
+            删除奖励信息
+            </summary>
+            <param name="rewardFlag">奖励申请id</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.SystemRewardManage.ApplyPass(System.String)">
+            <summary>
+            申请通过
+            </summary>
+            <param name="rewardFlag">奖励申请id</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.SystemRewardManage.ApplyReturn(System.String)">
+            <summary>
+            申请退回
+            </summary>
+            <param name="rewardFlag">奖励申请id</param>
+            <returns></returns>
+        </member>
+        <member name="T:XYY.PaymentSystem.TiXianManage">
+            <summary>
+            提现管理
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.TiXianManage.Post(XYY.PaymentSystem.DTO.TiXianDto)">
+            <summary>
+            提现
+            </summary>
+            <param name="value">提现对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.TiXianManage.TiXian(System.Int32,System.Decimal,XYY.PaymentSystem.DTO.TiXianType,System.String)">
+            <summary>
+            提现操作
+            </summary>
+            <param name="userID">用户id</param>
+            <param name="fee">金额</param>
+            <param name="tixianType">提现类型</param>
+            <param name="details">交易明细</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.TiXianManage.Put(XYY.PaymentSystem.DTO.TradenoState,System.String[])">
+            <summary>
+            更新提现状态
+            </summary>
+            <param name="tradenoState">要更新的状态</param>
+            <param name="tradenos">流水单号</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.TiXianManage.UpDateTiXianState(XYY.PaymentSystem.DTO.TradenoState,System.String[])">
+            <summary>
+            更新提现状态
+            </summary>
+            <param name="tradenoState">要更新的状态</param>
+            <param name="tradenos">流水单号</param>
+            <returns></returns>
+        </member>
+        <member name="T:XYY.PaymentSystem.TransferManage">
+            <summary>
+            转账
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.TransferManage.UserTransfer(System.Int32,System.Int32,System.String,System.Decimal,XYY.PaymentSystem.DTO.MoneyType)">
+             <summary>
+            用户转账
+             </summary>
+             <param name="userIDOut">转出人（操作转账的人）</param>
+             <param name="userIDIn">转入人（收到金额的人）</param>
+             <param name="passwordOut">转出人密码</param>
+             <param name="fee">金额</param>
+             <param name="moneyType">货币类型</param>
+             <returns></returns>
+        </member>
+        <member name="T:XYY.PaymentSystem.UserAccountManage">
+            <summary>
+            用户账户信息
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserAccountManage.Put(XYY.PaymentSystem.DTO.UserAccountManageDto)">
+            <summary>
+            更改用户账户信息
+            </summary>
+            <param name="userAccount">更改用户账户信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserAccountManage.Get(System.Int32)">
+            <summary>
+            获取用户账户
+            </summary>
+            <param name="userID">用户id</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserAccountManage.Get(System.Int32,System.String)">
+            <summary>
+            获取用户账户信息
+            </summary>
+            <param name="userID">用户id</param>
+            <param name="passWord">密码密文</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserAccountManage.SetUserAccount(System.Int32,System.String)">
+            <summary>
+            设置密码
+            </summary>
+            <param name="userID">用户id</param>
+            <param name="passWord">密码密文</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserAccountManage.UpDateAccount(System.Int32,System.String,System.String)">
+            <summary>
+            更改密码
+            </summary>
+            <param name="userID">用户id</param>
+            <param name="oldPassWord">旧密码密文</param>
+            <param name="newPassWord">新密码密文</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserAccountManage.CheckUserPassword(System.Int32,System.String)">
+            <summary>
+            检测用户支付密码
+            </summary>
+            <param name="userID">用户id</param>
+            <param name="passWord">密码</param>
+            <returns></returns>
+        </member>
+        <member name="T:XYY.PaymentSystem.UserPayManage">
+            <summary>
+            用户支付
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserPayManage.PayService(XYY.PaymentSystem.DTO.ServiceOrderDto)">
+            <summary>
+            消费账户支付服务
+            </summary>
+            <param name="value">服务订单</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserPayManage.PayServiceOfPlatform(XYY.PaymentSystem.DTO.ServiceOrderPlatformDto)">
+            <summary>
+            支付平台支付服务
+            </summary>
+            <param name="value">服务订单</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserPayManage.Pay(XYY.PaymentSystem.DTO.UserPayDto)">
+            <summary>
+            消费账户支付
+            </summary>
+            <param name="value">订单</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserPayManage.PayPlatform(XYY.PaymentSystem.DTO.UserPayPlatformDto)">
+            <summary>
+            支付平台支付
+            </summary>
+            <param name="value">订单</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserPayManage.Add(XYY.PaymentSystem.DTO.JinTaiYangTurnoverDto)">
+            <summary>
+            金太阳流水记录添加
+            </summary>
+            <param name="jinTaiYangTurnoverDto">流水记录对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserPayManage.Put(XYY.PaymentSystem.DTO.UserDivideDto)">
+            <summary>
+            收益接口
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserPayManage.UserDivide(System.Int32,System.Decimal,XYY.PaymentSystem.DTO.MoneyType,System.String)">
+            <summary>
+            分成接口
+            </summary>
+            <param name="userID">分成人id</param>
+            <param name="fee">分成金额</param>
+            <param name="moneyType">金额类型</param>
+            <param name="tradeno">流水单号（验证）</param>
+            <returns></returns>
+        </member>
+        <member name="T:XYY.PaymentSystem.UserRechargeManage">
+            <summary>
+            用户充值
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserRechargeManage.Post(XYY.PaymentSystem.DTO.RechargeOrderDto)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserRechargeManage.PhoenRecharge(System.Int32,System.Int32,XYY.PaymentSystem.DTO.RechargePlatform)">
+            <summary>
+            手机端充值
+            </summary>
+            <param name="userID">用户id</param>
+            <param name="discountID">折扣id</param>
+            <param name="rechargePlatform">充值平台</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserRechargeManage.WebRecharge(System.Int32,System.Decimal,XYY.PaymentSystem.DTO.RechargePlatform,System.Nullable{System.Int32})">
+            <summary>
+            页面端充值
+            </summary>
+            <param name="userID">用户id</param>
+            <param name="fee">金额</param>
+            <param name="rechargePlatform">充值平台</param>
+            <param name="discountID">折扣id</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserRechargeManage.UpdateRechargeOrder(System.String,System.Decimal,System.String)">
+            <summary>
+            更新充值订单
+            </summary>
+            <param name="tradeno">流水单号</param>
+            <param name="fee">支付金额</param>
+            <param name="flag">充值平台凭证</param>
+            <returns></returns>
+        </member>
+        <member name="T:XYY.PaymentSystem.UserServiceManage">
+            <summary>
+            用户服务
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserServiceManage.GetUserOwnService(System.Int32)">
+            <summary>
+            获取用户已经购买过的服务
+            </summary>
+            <param name="userID">用户id</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserServiceManage.GetUserNotOwnService(System.Int32)">
+            <summary>
+            获取用户没有购买过的
+            </summary>
+            <param name="userID">用户id</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserServiceManage.OpenUserService(XYY.PaymentSystem.DTO.UserOpenServiceDto)">
+            <summary>
+            开通服务
+            </summary>
+            <param name="value">开通服务对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserServiceManage.OpenUserService(System.Int32,XYY.PaymentSystem.DTO.BackgroundOpenUserServiceDto[])">
+            <summary>
+            后台开通服务
+            </summary>
+            <param name="userID">用户id</param>
+            <param name="value">开通服务对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserServiceManage.GetUserOwnService(System.Int32[])">
+            <summary>
+            获取多用户已经购买过的服务
+            </summary>
+            <param name="userIDs">用户id</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserServiceManage.GetUserUseService(System.Int32[])">
+            <summary>
+            获取多用户正在使用的服务
+            </summary>
+            <param name="userIDs">用户id</param>
+            <returns></returns>
+        </member>
+        <member name="T:XYY.PaymentSystem.UserTransactionHistories">
+            <summary>
+            用户流水记录
+            </summary>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserTransactionHistories.GetUserTransactionHistoryStatic(System.Nullable{System.Int32},System.Nullable{XYY.PaymentSystem.DTO.TradenoProfessionType},System.Nullable{XYY.PaymentSystem.DTO.AccountType},System.Nullable{XYY.PaymentSystem.DTO.MoneyType},System.Nullable{XYY.PaymentSystem.DTO.TradeType},System.Nullable{XYY.PaymentSystem.DTO.TradeChildType},System.Nullable{XYY.PaymentSystem.DTO.TradenoState},System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="userID"></param>
+            <param name="professionType"></param>
+            <param name="accountType"></param>
+            <param name="moneyType"></param>
+            <param name="tradeType"></param>
+            <param name="tradeChildType"></param>
+            <param name="tradenoState"></param>
+            <param name="moneyMin"></param>
+            <param name="moneyMax"></param>
+            <param name="startTime"></param>
+            <param name="endTime"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserTransactionHistories.GetUserTransactionHistoryStatic(System.Nullable{XYY.PaymentSystem.DTO.TradenoProfessionType},System.Nullable{XYY.PaymentSystem.DTO.AccountType},System.Nullable{XYY.PaymentSystem.DTO.TradeType},System.Nullable{XYY.PaymentSystem.DTO.TradenoState},System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String)">
+            <summary>
+            获取流水统计信息
+            </summary>
+            <param name="professionType">身份分类</param>
+            <param name="accountType">账户类型</param>
+            <param name="tradeType">分类类别</param>
+            <param name="tradenoState">支付状态</param>
+            <param name="moneyMin">金额最小值</param>
+            <param name="moneyMax">金额最大值</param>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="input">用户输入</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserTransactionHistories.GetUserTransactionHistory(System.Nullable{XYY.PaymentSystem.DTO.TradenoProfessionType},System.Nullable{XYY.PaymentSystem.DTO.AccountType},System.Nullable{XYY.PaymentSystem.DTO.TradeType},System.Nullable{XYY.PaymentSystem.DTO.TradenoState},System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.Int32,System.Int32)">
+            <summary>
+            获取流水信息
+            </summary>
+            <param name="professionType">身份分类</param>
+            <param name="accountType">账户类型</param>
+            <param name="tradeType">分类类别</param>
+            <param name="tradenoState">支付状态</param>
+            <param name="moneyMin">金额最小值</param>
+            <param name="moneyMax">金额最大值</param>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="input">用户输入</param>
+            <param name="pageIndex">当前页码</param>
+            <param name="pageSize">每页大小</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserTransactionHistories.GetUserTransactionHistory(System.Nullable{XYY.PaymentSystem.DTO.TradenoProfessionType},System.Nullable{XYY.PaymentSystem.DTO.AccountType},System.Nullable{XYY.PaymentSystem.DTO.TradeType},System.Nullable{XYY.PaymentSystem.DTO.TradenoState},System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String)">
+            <summary>
+            导出流水信息
+            </summary>
+            <param name="professionType">身份分类</param>
+            <param name="accountType">账户类型</param>
+            <param name="tradeType">分类类别</param>
+            <param name="tradenoState">支付状态</param>
+            <param name="moneyMin">金额最小值</param>
+            <param name="moneyMax">金额最大值</param>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="input">用户输入</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserTransactionHistories.GetUserTransactionHistory(System.Int32,XYY.PaymentSystem.DTO.AccountType,System.Nullable{XYY.PaymentSystem.DTO.TradeType},System.Nullable{XYY.PaymentSystem.DTO.MoneyType},System.Nullable{XYY.PaymentSystem.DTO.TradenoState},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Int32,System.Int32)">
+            <summary>
+            获取个人流水信息
+            </summary>
+            <param name="userID">用户id</param>
+            <param name="accountType">账户类型</param>
+            <param name="tradeType">交易类型</param>
+            <param name="moneyType">货币类型</param>
+            <param name="tradenoState">交易状态</param>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="pageIndex">当前页码</param>
+            <param name="pageSize">每页大小</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserTransactionHistories.GetTransactionHistory(System.String)">
+            <summary>
+            获取当前流水单号的流水信息
+            </summary>
+            <param name="tradeno">流水单号</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserTransactionHistories.GetRechargeState(System.String)">
+            <summary>
+            获取当前流水单号的交易状态
+            </summary>
+            <param name="tradeno">流水单号</param>
+            <returns></returns>
+        </member>
+        <member name="M:XYY.PaymentSystem.UserTransactionHistories.Get(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Int32,System.Int32)">
+            <summary>
+            金太阳后台流水
+            </summary>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="pageIndex">当前页码</param>
+            <param name="pageSize">每页大小</param>
+            <returns></returns>     
+        </member>
+        <member name="M:XYY.PaymentSystem.UserTransactionHistories.Get(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            金太阳后台流水总额
+            </summary>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <returns></returns>    
+        </member>
+    </members>
+</doc>

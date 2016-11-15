@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <input type="button" value="获取前10条数据" id="btn_get" />
+    <input type="button" value="删除Id=76的用户" id="btn_del" />
+</body>
+</html>
+<script src="Scripts/jquery-1.10.2.js"></script>
+
+<script>
+    $(function () {
+
+        //get
+        $("#btn_get").click(function () {
+
+            //$.getJSON("/api/user/", {
+            //    "pageIndex": 1, "pageSize": 10
+            //}, function (data) {
+            //    debugger
+            //});
+
+            $.ajax({
+                type: "get",
+                url: "/api/user",
+                data: { pageIndex: 1, pageSize: 10 },
+                dataType: "json",
+                success: function (data) {
+                    debugger
+                }
+            });
+        });
+
+        //delete
+        $("#btn_del").click(function () {
+            $.ajax({
+                type: "delete",
+                url: "/api/user",
+                data: { id: 0 },
+                dataType: "json",
+                success: function (data) {
+                    debugger
+                }
+            });
+        });
+    })
+</script>

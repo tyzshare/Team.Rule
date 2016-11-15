@@ -1,0 +1,4 @@
+C:\Users\PC-JinPeng\Desktop\技术培训\组内开发规则\Team.Rule\Team.Rule.Common\bin\Debug\Team.Rule.Common.dll
+C:\Users\PC-JinPeng\Desktop\技术培训\组内开发规则\Team.Rule\Team.Rule.Common\bin\Debug\Team.Rule.Common.pdb
+C:\Users\PC-JinPeng\Desktop\技术培训\组内开发规则\Team.Rule\Team.Rule.Common\obj\Debug\Team.Rule.Common.dll
+C:\Users\PC-JinPeng\Desktop\技术培训\组内开发规则\Team.Rule\Team.Rule.Common\obj\Debug\Team.Rule.Common.pdb

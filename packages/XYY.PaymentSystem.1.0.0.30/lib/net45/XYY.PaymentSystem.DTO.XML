@@ -1,0 +1,1803 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XYY.PaymentSystem.DTO</name>
+    </assembly>
+    <members>
+        <member name="T:XYY.PaymentSystem.DTO.BackgroundOpenUserServiceDto">
+            <summary>
+            后台开通服务
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.BackgroundOpenUserServiceDto.ID">
+            <summary>
+            服务id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.BackgroundOpenUserServiceDto.ExpireDate">
+            <summary>
+            服务到期时间
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.BackgroundOpenUserServiceDto.IsDisable">
+            <summary>
+            是否禁用
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.AccountType">
+            <summary>
+            账户类型
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.AccountType.XiaoFei">
+            <summary>
+            消费账户
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.AccountType.TiXian">
+            <summary>
+            体现账户
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.ExchangeAction">
+            <summary>
+            兑换动作
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.ExchangeAction.CashToCoin">
+            <summary>
+            现金兑换学币
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.ExchangeAction.CashToPoint">
+            <summary>
+            现金兑换学点
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.ExchangeAction.CoinToPoint">
+            <summary>
+            学币兑换学点
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.ExchangeAction.CashinToCoin">
+            <summary>
+            提现账户兑换学币
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.ExchangeAction.CashinToPoint">
+            <summary>
+            提现账户兑换学点
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.Income">
+            <summary>
+            收益类型
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.Income.Income">
+            <summary>
+            收益
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.MoneyType">
+            <summary>
+            金额类型
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.MoneyType.Point">
+            <summary>
+            学点
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.MoneyType.Coin">
+            <summary>
+            学币
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.MoneyType.Cash">
+            <summary>
+            现金
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.MoneyType.Cashin">
+            <summary>
+            提现账户
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.MoneyType.Check">
+            <summary>
+            体现冻结账户
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.PayOperateState">
+            <summary>
+            支付操作状态
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayOperateState.PayPasswprdError">
+            <summary>
+            支付密码错误
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayOperateState.AccountLocked">
+            <summary>
+            账户锁定
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayOperateState.Successed">
+            <summary>
+            成功
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayOperateState.MoneyDeficiency">
+            <summary>
+            余额不足
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayOperateState.MoneyTypeError">
+            <summary>
+            金额类型有误
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayOperateState.SaveFail">
+            <summary>
+            保存失败
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayOperateState.OrderException">
+            <summary>
+            订单异常
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.PayType">
+            <summary>
+            支付类型
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayType.Service">
+            <summary>
+            会员购买
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayType.Resource">
+            <summary>
+            资源购买
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayType.Video">
+            <summary>
+            视频购买
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayType.Paper">
+            <summary>
+            试卷购买
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayType.Hpc">
+            <summary>
+            HPC购买
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayType.PaperDown">
+            <summary>
+            组卷下载
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayType.Course">
+            <summary>
+            排课导出
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayType.Area">
+            <summary>
+            校区开通
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayType.ShortMessage">
+            <summary>
+            短信购买
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PayType.Website">
+            <summary>
+            校园门户消费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.ResourceSpecialFree">
+            <summary>
+            特供资源免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.ResourcePointFree">
+            <summary>
+            学点资源免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.ResourceCoinFree">
+            <summary>
+            学币资源免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.ResourceCashFree">
+            <summary>
+            现金资源免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.VideoPointFree">
+            <summary>
+            视频学点免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.VideoCoinFree">
+            <summary>
+            视频学币免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.VideoCashFree">
+            <summary>
+            视频现金免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.PaperPointFree">
+            <summary>
+            试卷学点免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.PaperCoinFree">
+            <summary>
+            试卷学币免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.PaperCashFree">
+            <summary>
+            试卷现金免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.PaperDownFree">
+            <summary>
+            组卷下载免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.CourseFree">
+            <summary>
+            所有排课免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.WebPointFree">
+            <summary>
+            校园门户模板学点免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.WebCoinFree">
+            <summary>
+            校园门户模板学币免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.WebCashFree">
+            <summary>
+            校园门户模板现金免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.WebPro">
+            <summary>
+            校园门户专业版
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.ShortMessageToTeacherTree">
+            <summary>
+            给教师发短信免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.ShortMessageToStudentTree">
+            <summary>
+            给学生发短信免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.ShortMessageToParentTree">
+            <summary>
+            给家长发短信免费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.PermessionType.ShortMessageToPersonalTree">
+            <summary>
+            给个人发短信免费
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.Profession">
+            <summary>
+            用户身份
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.Profession.SchoolAdmin">
+            <summary>
+            学校管理员
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.Profession.SchoolTeacher">
+            <summary>
+            学校教师
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.Profession.SchoolStudent">
+            <summary>
+            学校学生
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.Profession.SchoolParent">
+            <summary>
+            学校家长
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.Profession.RegionUser">
+            <summary>
+            区域人员
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.Profession.RegionAdmin">
+            <summary>
+            区域管理员
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.Profession.CompanyUser">
+            <summary>
+            代理人员
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.Profession.CompanyAdmin">
+            <summary>
+            代理管理员
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.RechargeActionCode">
+            <summary>
+            活动枚举
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.RechargeActionCode.phoneRecharge">
+            <summary>
+            手机充值专享
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.RechargeActionCode.webRecharge">
+            <summary>
+            页面充值专享
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.RechargePlatform">
+            <summary>
+            支付平台
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.RechargePlatform.QuickPay">
+            <summary>
+            快捷支付
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.RechargePlatform.Alipay">
+            <summary>
+            支付宝充值
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.RechargePlatform.CHINABANK">
+            <summary>
+            网银充值
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.RechargePlatform.WeiXinPay">
+            <summary>
+            微信支付
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.ServiceSource">
+            <summary>
+            服务来源
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.ServiceSource.BackOpen">
+            <summary>
+            后台开通
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.ServiceSource.PersonBuy">
+            <summary>
+            个人中心购买
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.ServiceSource.CompanyDonate">
+            <summary>
+            代理赠送
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.ServiceSource.ComeFromOA">
+            <summary>
+            来自于oa
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.SystemDonate">
+            <summary>
+            系统赠送
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.SystemDonate.SystemDonate">
+            <summary>
+            系统赠送
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.SystemReward">
+            <summary>
+            系统奖励
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.TimeType">
+            <summary>
+            时间类别
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TimeType.Day">
+            <summary>
+            天
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TimeType.Month">
+            <summary>
+            月
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TimeType.Year">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.TiXianType">
+            <summary>
+            提现操作
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TiXianType.TiXianToBank">
+            <summary>
+            提现到银行卡
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TiXianType.TiXianToCash">
+            <summary>
+            提现到消费账户
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.TradeChildType">
+             <summary>
+            交易名称类型
+             </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.QuickPay">
+            <summary>
+            快捷充值
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.Alipay">
+            <summary>
+            支付宝充值
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.CHINABANK">
+            <summary>
+            网银充值
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.WeiXinPay">
+            <summary>
+            微信支付
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.CashToCoin">
+            <summary>
+            现金兑换学币
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.CashToPoint">
+            <summary>
+            现金兑换学点
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.CoinToPoint">
+            <summary>
+            学币兑换学点
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.SystemReward">
+            <summary>
+            系统奖励
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.SystemDonate">
+            <summary>
+            系统赠送
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.TransferOut">
+            <summary>
+            现金转出
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.TransferIn">
+            <summary>
+            现金转入
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.TiXianToBank">
+            <summary>
+            提现到银行卡
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.TiXianXiaoFei">
+            <summary>
+            提现到消费账户
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.Income">
+            <summary>
+            收益
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.Service">
+            <summary>
+            会员购买
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.Resource">
+            <summary>
+            资源购买
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.Video">
+            <summary>
+            视频购买
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.Paper">
+            <summary>
+            试卷购买
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.Hpc">
+            <summary>
+            HPC购买
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.PaperDown">
+            <summary>
+            组卷下载
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.Course">
+            <summary>
+            排课导出
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.Area">
+            <summary>
+            校区开通
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.ShortMessage">
+            <summary>
+            短信购买
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeChildType.Website">
+            <summary>
+            校园门户消费
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.TradenoProfessionType">
+            <summary>
+            流水查询身份
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradenoProfessionType.User">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradenoProfessionType.Company">
+            <summary>
+            代理
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradenoProfessionType.Region">
+            <summary>
+            区域
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradenoProfessionType.School">
+            <summary>
+            学校
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.TradenoState">
+            <summary>
+            交易状态
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradenoState.Progressing">
+            <summary>
+            未支付
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradenoState.Success">
+            <summary>
+            成功
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradenoState.Fail">
+            <summary>
+            失败
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.TradeType">
+            <summary>
+            交易类型
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeType.Recharge">
+            <summary>
+            充值
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeType.Exchange">
+            <summary>
+            兑换
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeType.SystemReward">
+            <summary>
+            系统奖励
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeType.SystemDonate">
+            <summary>
+            系统赠送
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeType.Transfer">
+            <summary>
+            转账
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeType.TiXian">
+            <summary>
+            提现
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeType.Pay">
+            <summary>
+            消费
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeType.HelpPay">
+            <summary>
+            代付
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.TradeType.Income">
+            <summary>
+            收益
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.UserAccountState">
+            <summary>
+            用户账户验证状态
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.UserAccountState.PayPasswprdError">
+            <summary>
+            支付密码错误
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.UserAccountState.AccountLocked">
+            <summary>
+            账户锁定
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.UserAccountState.Successed">
+            <summary>
+            成功
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.JinTaiYangTurnoverDto">
+            <summary>
+            金太阳流水记录
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangTurnoverDto.UserID">
+            <summary>
+            购买人id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangTurnoverDto.Tradeno">
+            <summary>
+            流水单号
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangTurnoverDto.Point">
+            <summary>
+            学点
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangTurnoverDto.Coin">
+            <summary>
+            学币
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangTurnoverDto.Cash">
+            <summary>
+            现金
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangTurnoverDto.BuyType">
+            <summary>
+            消费类型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangTurnoverDto.SalerID">
+            <summary>
+            购买商品的id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangTurnoverDto.SalerName">
+            <summary>
+            消费对象名称
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangTurnoverDto.Des">
+            <summary>
+            交易描述
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangTurnoverDto.AlipaySuccessID">
+            <summary>
+            支付宝成功ID
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.JinTaiYangBackTurnoverDto">
+            <summary>
+            金太阳后台流水
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangBackTurnoverDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangBackTurnoverDto.SalerDetail">
+            <summary>
+            消费详情
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangBackTurnoverDto.Fee">
+            <summary>
+            金额
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangBackTurnoverDto.TradenoTime">
+            <summary>
+            消费时间
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangBackTurnoverDto.Tradeno">
+            <summary>
+            流水单号
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.JinTaiYangBackTurnoverDto.MoneyType">
+            <summary>
+            金额枚举
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.DonateOnceDto">
+            <summary>
+            一次性赠送
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.DonateOnceDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.DonateOnceDto.DonateOnceID">
+            <summary>
+            一次性赠送id
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.ExchangeMoneyDto">
+            <summary>
+            兑换对象
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ExchangeMoneyDto.UserID">
+            <summary>
+            当前操作人id（用户id）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ExchangeMoneyDto.Fee">
+            <summary>
+            金额
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ExchangeMoneyDto.ExchangeAction">
+            <summary>
+            兑换动作
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.IncomeDto">
+            <summary>
+            收益对象
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.IncomeDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.IncomeDto.Fee">
+            <summary>
+            金额
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.IncomeDto.MoneyType">
+            <summary>
+            金额类型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.IncomeDto.Income">
+            <summary>
+            收益类型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.IncomeDto.Details">
+            <summary>
+            收益详情
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.IncomeDto.Tradeno">
+            <summary>
+            流水单号
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.OrderDto">
+            <summary>
+            订单返回对象
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.OrderDto.tradeno">
+            <summary>
+            流水单号
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.OrderDto.PayOperateState">
+            <summary>
+            支付操作状态
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.OrderDto.ErrorCount">
+            <summary>
+            错误次数
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.Model.PriceDetails">
+            <summary>
+            订单详情
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.Model.PriceDetails.OrderPrice">
+            <summary>
+            订单价格
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.Model.PriceDetails.ActualPrice">
+            <summary>
+            实际价格
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.RechargeActivityDto">
+            <summary>
+            充值活动对象
+            </summary>
+        </member>
+        <member name="F:XYY.PaymentSystem.DTO.RechargeActivityDto.discount">
+            <summary>
+            则扣信息
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityDto.RechargeActivityID">
+            <summary>
+            主键id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityDto.ActionName">
+            <summary>
+            活动名称
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityDto.DetailedDescribe">
+            <summary>
+            详细说明
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityDto.ActionCode">
+            <summary>
+            活动编码（类别）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityDto.MoneyMin">
+            <summary>
+            金额下限
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityDto.MoneyMax">
+            <summary>
+            金额上限
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityDto.Discount">
+            <summary>
+            折扣(大于0小于等于1)
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityDto.ReducePrice">
+            <summary>
+            减免
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityDto.DonateOnceID">
+            <summary>
+            一次性赠送id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityDto.StartTime">
+            <summary>
+            开始时间（不对此时间进行过滤）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityDto.EndTime">
+            <summary>
+            结束时间（不对此时间进行过滤）
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.RechargeOrderDto">
+            <summary>
+            充值订单对象
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeOrderDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeOrderDto.TargetFee">
+            <summary>
+            订单金额 单位（元）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeOrderDto.DiscountID">
+            <summary>
+            折扣id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeOrderDto.ActualFee">
+            <summary>
+            实际支付金额 单位（元）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeOrderDto.Tradeno">
+            <summary>
+            流水单号 （返回信息使用,传入不赋值）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeOrderDto.MoneyType">
+            <summary>
+            充值类型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeOrderDto.RechargePlatform">
+            <summary>
+            支付平台类型（枚举）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardDetailsDto.RewardFlag">
+            <summary>
+            申请id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardDetailsDto.AccountType">
+            <summary>
+            账户类型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardDetailsDto.Applicant">
+            <summary>
+            申请人
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardDetailsDto.RewardObject">
+             <summary>
+            发放对象
+             </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardDetailsDto.Details">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardDetailsDto.RewardReason">
+            <summary>
+            奖励因由
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.RewardObjectDto">
+            <summary>
+            奖励对象
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardObjectDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardObjectDto.Fee">
+            <summary>
+            金额
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardObjectDto.MoneyType">
+            <summary>
+            货币类型
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.RewardTableDto">
+            <summary>
+            奖励列表
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardTableDto.RewardFlag">
+            <summary>
+            申请id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardTableDto.RewardReason">
+            <summary>
+            奖励因由
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardTableDto.Applicant">
+            <summary>
+            申请人
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardTableDto.CashCount">
+            <summary>
+            现金总额
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardTableDto.CoinCount">
+            <summary>
+            学币总额
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardTableDto.PointCount">
+            <summary>
+            学点总额
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardTableDto.MoneyCountDetails">
+            <summary>
+            总金额描述
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardTableDto.AccountType">
+            <summary>
+            账户类型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardTableDto.UserID">
+             <summary>
+            发放对象
+             </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardTableDto.ApplyTime">
+            <summary>
+            申请时间
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RewardTableDto.TradenoState">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.ServiceOrderDto">
+            <summary>
+            服务订单对象
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderDto.PayPassword">
+            <summary>
+            支付密码
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderDto.ServiceID">
+            <summary>
+            服务id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderDto.SalerDetail">
+            <summary>
+            交易明细
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderDto.TimeSpan">
+            <summary>
+            时长
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderDto.TimeType">
+            <summary>
+            时长单位
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderDto.DiscountID">
+            <summary>
+            活动id
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.ServiceOrderPlatformDto">
+            <summary>
+            服务订单（第三方支付平台）对象
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderPlatformDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderPlatformDto.tradeno">
+            <summary>
+            流水单号
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderPlatformDto.ServiceID">
+            <summary>
+            服务id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderPlatformDto.SalerDetail">
+            <summary>
+            交易明细
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderPlatformDto.TimeSpan">
+            <summary>
+            时长
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderPlatformDto.TimeType">
+            <summary>
+            时长单位
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderPlatformDto.DiscountID">
+            <summary>
+            活动id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServiceOrderPlatformDto.Flag">
+            <summary>
+            第三方平台标识
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.ServicePermissionsDto">
+            <summary>
+            服务权限对象
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServicePermissionsDto.PermissionID">
+            <summary>
+            服务权限id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServicePermissionsDto.PermissionName">
+            <summary>
+            服务权限名称
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServicePermissionsDto.DetailedDescribe">
+            <summary>
+            服务权限描述
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServicePermissionsDto.SystemServiceID">
+            <summary>
+            服务id集合
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.ServicePriceDto">
+            <summary>
+            服务价格
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServicePriceDto.ServiceID">
+            <summary>
+            服务id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServicePriceDto.OrderPrice">
+            <summary>
+            订单价格
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ServicePriceDto.PayPrice">
+            <summary>
+            支付价格
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.ShortMessageAccountDto">
+            <summary>
+            用户剩余短信模型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ShortMessageAccountDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.ShortMessageAccountDto.Cnt">
+            <summary>
+            剩余数量
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.SystemDonateDto">
+            <summary>
+            系统奖励
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.SystemDonateDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.SystemDonateDto.Fee">
+            <summary>
+            金额
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.SystemDonateDto.MoneyType">
+            <summary>
+            金额类型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.SystemDonateDto.SalerDetail">
+            <summary>
+            流水明细
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.SystemDonateDto.SystemDonate">
+            <summary>
+            系统奖励类别
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.SystemServiceDto">
+            <summary>
+            系统服务对象
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.SystemServiceDto.ServiceID">
+            <summary>
+            服务主键
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.SystemServiceDto.ServiceName">
+            <summary>
+            服务名称
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.SystemServiceDto.Profession">
+            <summary>
+            该服务可见身份
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.SystemServiceDto.ServiceIcon">
+            <summary>
+            服务图标
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.SystemServiceDto.DetailedDescribe">
+            <summary>
+            详细说明
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.SystemServiceDto.ServicePrice">
+            <summary>
+            定价
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.SystemServiceDto.IsDelete">
+            <summary>
+            是否删除
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.SystemServiceDto.PermissionsName">
+            <summary>
+            服务权限名称（服务内容）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.SystemServiceDto.PermissionsID">
+            <summary>
+            服务权限ID
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.TiXianDto">
+            <summary>
+            提现对象
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.TiXianDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.TiXianDto.Fee">
+            <summary>
+            金额
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.TiXianDto.TiXianType">
+            <summary>
+            提现操作类型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.TiXianDto.Details">
+            <summary>
+            交易明细
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.TiXianDto.Tradeno">
+            <summary>
+            流水单号
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.UpdateRechargeOrderDto">
+            <summary>
+            更新充值订单
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UpdateRechargeOrderDto.Tradeno">
+             <summary>
+            流水单号
+             </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UpdateRechargeOrderDto.Fee">
+            <summary>
+            金额
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UpdateRechargeOrderDto.Flag">
+            <summary>
+            充值平台凭证
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.UserAccountDto">
+            <summary>
+            用户账户对象
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserAccountDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserAccountDto.Cash">
+            <summary>
+            现金（1现金=1RMB）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserAccountDto.Coin">
+            <summary>
+            学币（1学币=1现金=1RMB）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserAccountDto.Point">
+            <summary>
+            学点（100学点=1学币=1现金=1RMB）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserAccountDto.Cashin">
+            <summary>
+            提现账户（1体现账户=1RBM）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserAccountDto.Check">
+            <summary>
+            提现账户冻结金额
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserAccountDto.IsActive">
+            <summary>
+            是否激活
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserAccountDto.MainUserID">
+            <summary>
+            主账户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserAccountDto.IsLocked">
+            <summary>
+            是否锁定
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.UserAccountManageDto">
+            <summary>
+            用户账户管理对象
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserAccountManageDto.OldPassWord">
+            <summary>
+            明文传入
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserAccountManageDto.NewPassWord">
+            <summary>
+            明文传入
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.UserOpenServiceDto">
+            <summary>
+            用户开通服务对象
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserOpenServiceDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserOpenServiceDto.ServiceID">
+            <summary>
+            服务id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserOpenServiceDto.TimeSpan">
+            <summary>
+            时长（单位又TimeType决定；例如 TimeType=1，TimeType=TimeType.Month,代表1月）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserOpenServiceDto.TimeType">
+            <summary>
+            时间类型，用于决定时长类型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserOpenServiceDto.ServiceSource">
+            <summary>
+            服务来源
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.UserOwnServiceDto">
+            <summary>
+            用户拥有的服务
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserOwnServiceDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserOwnServiceDto.ServiceID">
+            <summary>
+            服务id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserOwnServiceDto.IsDisable">
+            <summary>
+            是否禁用
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserOwnServiceDto.ExpireTime">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserOwnServiceDto.ServiceName">
+            <summary>
+            服务名称
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserOwnServiceDto.ServiceIcon">
+            <summary>
+            服务图标
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserOwnServiceDto.DetailedDescribe">
+            <summary>
+            详细说明
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserOwnServiceDto.IsDelete">
+            <summary>
+            是否删除
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserOwnServiceDto.PermissionsName">
+            <summary>
+            服务权限名称（服务内容）
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.UserPayDto">
+            <summary>
+            支付对象
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayDto.PayPassword">
+            <summary>
+            支付密码
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayDto.Point">
+            <summary>
+            学点
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayDto.Coin">
+            <summary>
+            学币
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayDto.Cash">
+            <summary>
+            现金
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayDto.PayType">
+            <summary>
+            支付类型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayDto.SalerID">
+            <summary>
+            商品id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayDto.SalerDetail">
+            <summary>
+            流水明细
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayDto.autoClear">
+            <summary>
+            是否自动结算
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayPlatformDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayPlatformDto.tradeno">
+            <summary>
+            流水单号
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayPlatformDto.Point">
+            <summary>
+            学点
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayPlatformDto.Coin">
+            <summary>
+            学币
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayPlatformDto.Cash">
+            <summary>
+            现金
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayPlatformDto.PayType">
+            <summary>
+            支付类型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayPlatformDto.SalerID">
+            <summary>
+            商品id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayPlatformDto.SalerDetail">
+            <summary>
+            流水明细
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserPayPlatformDto.Flag">
+            <summary>
+            第三方平台标识
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransactionHistoryDto.TradenoID">
+            <summary>
+            交易id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransactionHistoryDto.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransactionHistoryDto.TenantID">
+            <summary>
+            租户id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransactionHistoryDto.Tradeno">
+            <summary>
+            流水单号
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransactionHistoryDto.Fee">
+            <summary>
+            金额（相对于账户对象，增加为+，减少为-）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransactionHistoryDto.MoneyType">
+            <summary>
+            金额类型（枚举）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransactionHistoryDto.SalerID">
+            <summary>
+            购买商品ID
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransactionHistoryDto.SalerDetail">
+            <summary>
+            购买商品明细（交易明细）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransactionHistoryDto.TradenoTime">
+            <summary>
+            交易时间
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransactionHistoryDto.TradeChildTypeName">
+            <summary>
+            交易名称
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransactionHistoryDto.TradeTypeName">
+            <summary>
+            交易类型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransactionHistoryDto.TradenoState">
+            <summary>
+            交易状态
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.UserTransferDto">
+            <summary>
+            用户转账信息
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransferDto.UserIDOut">
+            <summary>
+            转出人（当前操作转账的人）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransferDto.UserIDIn">
+            <summary>
+            转入人（收到金额的人）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransferDto.Fee">
+            <summary>
+            金额
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransferDto.MoneyType">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserTransferDto.passwordOut">
+            <summary>
+            转出人密码
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityPhoneDto.DiscountID">
+            <summary>
+            主键id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityPhoneDto.ActionName">
+            <summary>
+            活动名称
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityPhoneDto.ActionCode">
+            <summary>
+            活动code
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityPhoneDto.PreferentialName">
+            <summary>
+            折扣信息
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityPhoneDto.PriceDetails">
+            <summary>
+            价格详情，仅当此活动价格的区间值相等时，此参数有效
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityPhoneDto.Preferential">
+            <summary>
+            折扣值（大于0小于1的小数）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityPhoneDto.StartTime">
+            <summary>
+            活动开始时间
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.RechargeActivityPhoneDto.EndTime">
+            <summary>
+            活动结束时间
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.Result`1.PageSize">
+            <summary>
+            当前页码
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.Result`1.PageIndex">
+            <summary>
+            每页大小
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.Result`1.TotalCount">
+            <summary>
+            总数
+            </summary>
+        </member>
+        <member name="T:XYY.PaymentSystem.DTO.UserDivideDto">
+            <summary>
+            分成对象（仅适用于消费类型的分成）
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserDivideDto.UserID">
+            <summary>
+            分成人id
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserDivideDto.Fee">
+            <summary>
+            分成金额
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserDivideDto.MoneyType">
+            <summary>
+            分成金额类型
+            </summary>
+        </member>
+        <member name="P:XYY.PaymentSystem.DTO.UserDivideDto.Tradeno">
+            <summary>
+            流水单号
+            </summary>
+        </member>
+    </members>
+</doc>

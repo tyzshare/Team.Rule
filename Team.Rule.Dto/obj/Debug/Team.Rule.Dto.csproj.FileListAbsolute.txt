@@ -1,0 +1,10 @@
+C:\Users\PC-JinPeng\Desktop\技术培训\组内开发规则\Team.Rule\Team.Rule.Dto\bin\Debug\Team.Rule.Dto.dll
+C:\Users\PC-JinPeng\Desktop\技术培训\组内开发规则\Team.Rule\Team.Rule.Dto\bin\Debug\Team.Rule.Dto.pdb
+C:\Users\PC-JinPeng\Desktop\技术培训\组内开发规则\Team.Rule\Team.Rule.Dto\bin\Debug\Team.Rule.Entity.dll
+C:\Users\PC-JinPeng\Desktop\技术培训\组内开发规则\Team.Rule\Team.Rule.Dto\bin\Debug\EntityFramework.dll
+C:\Users\PC-JinPeng\Desktop\技术培训\组内开发规则\Team.Rule\Team.Rule.Dto\bin\Debug\Team.Rule.Entity.pdb
+C:\Users\PC-JinPeng\Desktop\技术培训\组内开发规则\Team.Rule\Team.Rule.Dto\bin\Debug\EntityFramework.xml
+C:\Users\PC-JinPeng\Desktop\技术培训\组内开发规则\Team.Rule\Team.Rule.Dto\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\PC-JinPeng\Desktop\技术培训\组内开发规则\Team.Rule\Team.Rule.Dto\obj\Debug\Team.Rule.Dto.csprojResolveAssemblyReference.cache
+C:\Users\PC-JinPeng\Desktop\技术培训\组内开发规则\Team.Rule\Team.Rule.Dto\obj\Debug\Team.Rule.Dto.dll
+C:\Users\PC-JinPeng\Desktop\技术培训\组内开发规则\Team.Rule\Team.Rule.Dto\obj\Debug\Team.Rule.Dto.pdb

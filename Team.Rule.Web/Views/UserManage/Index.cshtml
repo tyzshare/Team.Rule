@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles{
+    <!--添加样式-->
+}
+
+
+<h2>用户管理</h2>
+
+<h4>用户列表</h4>
+
+<table class="con-table mt-10 circle">
+    <thead>
+        <tr>
+            <td>登录邮箱</td>
+            <td>登录密码</td>
+            <td>操作</td>
+        </tr>
+    </thead>
+    <tbody id="pr"></tbody>
+</table>
+
+<!--分页-->
+<div class="page-div">
+</div>
+
+
+<h4 style="margin-top:30px;">添加用户</h4>
+
+<form id="fr_editUser" action="" method="post">
+
+    <!--1：将校验规则写到控件中,提示信息使用默认-->
+    @*登录邮箱：<input type="email" id="txt_LoginEmail" name="LoginEmail" maxlength="20" required />
+        登录密码：<input type="password" id="txt_LoginPwd" name="LoginPwd" rangelength="[8,16]" required />*@
+
+    <!--2：将校验规则写到控件中，把提示信息自定义写在js中-->
+    @*登录邮箱：<input type="email" id="txt_LoginEmail" name="LoginEmail" maxlength="20" required /><br>
+        登录密码：<input type="password" id="txt_LoginPwd" name="LoginPwd" rangelength="[8,16]" required />*@
+
+    <!--3：将校验规则，提示信息都写到js中-->
+    登录邮箱：<input type="text" id="txt_LoginEmail" name="LoginEmail" />
+    登录密码：<input type="password" id="txt_LoginPwd" name="LoginPwd" />
+
+    <input type="submit" value="添加用户" />
+    <input type="reset" id="rst" value="重置" />
+</form>
+
+
+@section scripts{
+    <script src="~/Scripts/UserManage/index.js"></script>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

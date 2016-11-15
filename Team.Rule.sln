@@ -1,0 +1,124 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Rule.Web【sure】", "Team.Rule.Web\Team.Rule.Web【sure】.csproj", "{C9EA67D3-21DE-4D28-8298-D618A2433EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Rule.Web.Tests", "Team.Rule.Web.Tests\Team.Rule.Web.Tests.csproj", "{BD13DF0B-C6CA-4DAA-8C78-42ABDF9BDC35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Rule.Business【sure】", "Team.Rule.Business\Team.Rule.Business【sure】.csproj", "{36ED5CA3-0C74-42F8-AD48-7815286A0315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Rule.Entity【sure】", "Team.Rule.Entity\Team.Rule.Entity【sure】.csproj", "{655BEB02-6C5B-4CE6-A2AD-18B7DD5092F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Rule.Common【sure】", "Team.Rule.Common\Team.Rule.Common【sure】.csproj", "{0FDDAB22-42C5-4C90-893E-7DA66B205854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Rule.Dto【sure】", "Team.Rule.Dto\Team.Rule.Dto【sure】.csproj", "{BD024017-FA7C-4D5F-9CA6-DD123AA742E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D1E118C3-C8ED-4C0C-975D-7420AB6F4430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Rule.ConsoleApplication.Tests", "Team.Rule.ConsoleApplication.Tests\Team.Rule.ConsoleApplication.Tests.csproj", "{BA2A038D-5ACB-4DB3-8C36-540915ACADB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Rule.WinForm.Tests", "Team.Rule.WinForm.Tests\Team.Rule.WinForm.Tests.csproj", "{ADC7C4E3-BE11-4269-B5B4-B29D68D11810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Rule.WebApi[sure]", "Team.Rule.WebApi\Team.Rule.WebApi[sure].csproj", "{E4FC1690-7F8B-41CD-840A-D18EAAD8F04F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Rule.WebApi.Tests", "Team.Rule.WebApi.Tests\Team.Rule.WebApi.Tests.csproj", "{4E2E530F-6756-4321-9AF5-BA12149C7294}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9EA67D3-21DE-4D28-8298-D618A2433EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9EA67D3-21DE-4D28-8298-D618A2433EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9EA67D3-21DE-4D28-8298-D618A2433EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9EA67D3-21DE-4D28-8298-D618A2433EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD13DF0B-C6CA-4DAA-8C78-42ABDF9BDC35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD13DF0B-C6CA-4DAA-8C78-42ABDF9BDC35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD13DF0B-C6CA-4DAA-8C78-42ABDF9BDC35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD13DF0B-C6CA-4DAA-8C78-42ABDF9BDC35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36ED5CA3-0C74-42F8-AD48-7815286A0315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36ED5CA3-0C74-42F8-AD48-7815286A0315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36ED5CA3-0C74-42F8-AD48-7815286A0315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36ED5CA3-0C74-42F8-AD48-7815286A0315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{655BEB02-6C5B-4CE6-A2AD-18B7DD5092F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655BEB02-6C5B-4CE6-A2AD-18B7DD5092F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655BEB02-6C5B-4CE6-A2AD-18B7DD5092F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655BEB02-6C5B-4CE6-A2AD-18B7DD5092F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FDDAB22-42C5-4C90-893E-7DA66B205854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDDAB22-42C5-4C90-893E-7DA66B205854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDDAB22-42C5-4C90-893E-7DA66B205854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDDAB22-42C5-4C90-893E-7DA66B205854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD024017-FA7C-4D5F-9CA6-DD123AA742E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD024017-FA7C-4D5F-9CA6-DD123AA742E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD024017-FA7C-4D5F-9CA6-DD123AA742E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD024017-FA7C-4D5F-9CA6-DD123AA742E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2A038D-5ACB-4DB3-8C36-540915ACADB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2A038D-5ACB-4DB3-8C36-540915ACADB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2A038D-5ACB-4DB3-8C36-540915ACADB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2A038D-5ACB-4DB3-8C36-540915ACADB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC7C4E3-BE11-4269-B5B4-B29D68D11810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC7C4E3-BE11-4269-B5B4-B29D68D11810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC7C4E3-BE11-4269-B5B4-B29D68D11810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC7C4E3-BE11-4269-B5B4-B29D68D11810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4FC1690-7F8B-41CD-840A-D18EAAD8F04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4FC1690-7F8B-41CD-840A-D18EAAD8F04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4FC1690-7F8B-41CD-840A-D18EAAD8F04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4FC1690-7F8B-41CD-840A-D18EAAD8F04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E2E530F-6756-4321-9AF5-BA12149C7294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2E530F-6756-4321-9AF5-BA12149C7294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2E530F-6756-4321-9AF5-BA12149C7294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2E530F-6756-4321-9AF5-BA12149C7294}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD13DF0B-C6CA-4DAA-8C78-42ABDF9BDC35} = {D1E118C3-C8ED-4C0C-975D-7420AB6F4430}
+		{BA2A038D-5ACB-4DB3-8C36-540915ACADB5} = {D1E118C3-C8ED-4C0C-975D-7420AB6F4430}
+		{ADC7C4E3-BE11-4269-B5B4-B29D68D11810} = {D1E118C3-C8ED-4C0C-975D-7420AB6F4430}
+		{4E2E530F-6756-4321-9AF5-BA12149C7294} = {D1E118C3-C8ED-4C0C-975D-7420AB6F4430}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.1.70:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Team.Rule.Dto\\Team.Rule.Dto【sure】.csproj
+		SccProjectName1 = Team.Rule.Dto
+		SccLocalPath1 = Team.Rule.Dto
+		SccProjectUniqueName2 = Team.Rule.Entity\\Team.Rule.Entity【sure】.csproj
+		SccProjectName2 = Team.Rule.Entity
+		SccLocalPath2 = Team.Rule.Entity
+		SccProjectUniqueName3 = Team.Rule.Web.Tests\\Team.Rule.Web.Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = Team.Rule.sln
+		SccProjectName3 = Team.Rule.Web.Tests
+		SccLocalPath3 = Team.Rule.Web.Tests
+		SccProjectUniqueName4 = Team.Rule.Common\\Team.Rule.Common【sure】.csproj
+		SccProjectName4 = Team.Rule.Common
+		SccLocalPath4 = Team.Rule.Common
+		SccProjectUniqueName5 = Team.Rule.Business\\Team.Rule.Business【sure】.csproj
+		SccProjectName5 = Team.Rule.Business
+		SccLocalPath5 = Team.Rule.Business
+		SccProjectUniqueName6 = Team.Rule.Web\\Team.Rule.Web【sure】.csproj
+		SccProjectName6 = Team.Rule.Web
+		SccLocalPath6 = Team.Rule.Web
+		SccProjectUniqueName7 = Team.Rule.ConsoleApplication.Tests\\Team.Rule.ConsoleApplication.Tests.csproj
+		SccProjectTopLevelParentUniqueName7 = Team.Rule.sln
+		SccProjectName7 = Team.Rule.ConsoleApplication.Tests
+		SccLocalPath7 = Team.Rule.ConsoleApplication.Tests
+		SccProjectUniqueName8 = Team.Rule.WinForm.Tests\\Team.Rule.WinForm.Tests.csproj
+		SccProjectTopLevelParentUniqueName8 = Team.Rule.sln
+		SccProjectName8 = Team.Rule.WinForm.Tests
+		SccLocalPath8 = Team.Rule.WinForm.Tests
+		SccProjectUniqueName9 = Team.Rule.WebApi.Tests\\Team.Rule.WebApi.Tests.csproj
+		SccProjectTopLevelParentUniqueName9 = Team.Rule.sln
+		SccProjectName9 = Team.Rule.WebApi.Tests
+		SccLocalPath9 = Team.Rule.WebApi.Tests
+		SccProjectUniqueName10 = Team.Rule.WebApi\\Team.Rule.WebApi[sure].csproj
+		SccProjectName10 = Team.Rule.WebApi
+		SccLocalPath10 = Team.Rule.WebApi
+	EndGlobalSection
+EndGlobal

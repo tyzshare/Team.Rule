@@ -1,0 +1,2 @@
+F:\组内开发规则\Team.Rule\Team.Rule.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\组内开发规则\Team.Rule\Team.Rule.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml

@@ -1,0 +1,29 @@
+﻿@using Team.Rule.Dto
+@model System.IPageResult<RuleDto>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>@item.RuleName</td>
+        <td>@item.RuleDetail</td>
+        <td><a href="javascript:;" onclick="Del(@item.Id)">删除</a></td>
+    </tr>
+}
+
+
+<script>
+        var currentPage=1;
+        $(function ()
+        {
+            if(@Model.PageCount>0)
+            {
+                currentPage=@Model.PageIndex;
+                var html = '@Html.Raw(Html.Pager(Model.PageSize, Model.PageIndex, Model.TotalCount, new { }, true, "Load"))';
+            $(".page-div").html(html);
+            }
+            else
+            {
+                $(".page-div").html("");
+            }
+        });
+</script>

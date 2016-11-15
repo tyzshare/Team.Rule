@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        .con-textpad-298 {
+            width: 258px;
+            padding-right: 40px;
+        }
+
+        .con-text {
+            font-size: 14px;
+            font-family: '宋体';
+            display: inline-block;
+            float: left;
+            height: 28px;
+            border: 1px solid #d5d5d5;
+            padding-left: 5px;
+        }
+
+        .text-count {
+            float: left;
+            height: 35px;
+            line-height: 35px;
+            font-size: 12px;
+            color: #ababab;
+            margin-left: -45px;
+            margin-top: 1px;
+            width: 42px;
+            text-align: right;
+        }
+
+        input {
+            vertical-align: middle;
+        }
+
+        input, textarea {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" name="consult" id="consult" maxlength="10" onkeyup="_monitorWrite(this, 10, 'msg')" class="con-text con-textpad-298" onfocus="if (this.value=='请输入内容' ) this.value=''" onblur="if (this.value=='') this.value='请输入内容' " />
+    <div class="text-count" style=""><i id="msg">0</i>/10</div>
+
+
+    <input type="button" value="开始" id="btn_begin" />
+    <input type="button" value="结束" id="btn_end" />
+
+    <label id="msg_ll"></label>
+
+    <input type="button" value="获取前10条数据" id="btn_get" />
+
+    <input type="button" value="删除Id=75的用户" id="btn_del" />
+
+</body>
+</html>
+
+<script src="Scripts/jquery-1.10.2.min.js"></script>
+<script src="Scripts/tool.js"></script>
+<script>
+    //function conWrite(obj, size, msg) {
+    //    debugger
+    //    if ($(obj) != null) {
+    //        var length = $(obj).val().length;
+    //        if (length < size) {
+    //            $("#" + msg + "").html(length);
+    //        }
+    //        else {
+    //            $("#" + msg + "").html(size);
+    //        }
+    //    }
+    //}
+
+    //$.get('/api/v1/userapi/QueryUserInfoList', {}, function (data) {
+    //    alert(data);
+    //});
+
+    $("#btn_begin").click(function () {
+        $.post("/usermanage/TaskBegin3", { id: 111 }, function (data) {
+            $("#mag_ll").html(data);
+        })
+    });
+    $("#btn_end").click(function () {
+        $.post("/usermanage/TaskEnd3", { id: 111 }, function (data) {
+            $("#mag_ll").html(data);
+        })
+    });
+
+    $("#btn_del").click(function () {
+        $.ajax({
+            type: "delete",
+            url: "http://localhost:53400/api/user/75",
+            data: { id: 75 },
+            dataType: "jsonp",
+            success: function (data) {
+                alert('成功删除');
+            }
+        });
+    });
+
+    $("#btn_get").click(function () {
+        debugger
+        $.get("http://localhost:53400/api/user/Get", {
+            "pageIndex": 1, "pageSize": 10
+        }, function (data) {
+            debugger
+        });
+
+        //$.ajax({
+        //    type: "get",
+        //    url: "http://localhost:53400/api/user/Get",
+        //    data: { pageIndex: 1, pageSize:10},
+        //    dataType: "jsonp",
+        //    success: function (data) {
+        //        alert(data)
+        //    }
+        //});
+    });
+
+
+    $("#btn_del").click(function () {
+        $.ajax({
+            type: "delete",
+            url: "http://localhost:53400/api/user/75",
+            data: { id: 75 },
+            dataType: "jsonp",
+            success: function (data) {
+                alert('成功删除');
+            }
+        });
+    });
+
+    //$(function(){
+    //    $('#send').click(function(){
+    //        $.ajax({
+    //            type: "GET",
+    //            url: "test.json",
+    //            data: {username:$("#username").val(), content:$("#content").val()},
+    //            dataType: "json",
+    //            success: function(data){
+    //                $('#resText').empty();   //清空resText里面的所有内容
+    //                var html = '';
+    //                $.each(data, function(commentIndex, comment){
+    //                    html += '<div class="comment"><h6>' + comment['username']
+    //                              + ':</h6><p class="para"' + comment['content']
+    //                              + '</p></div>';
+    //                });
+    //                $('#resText').html(html);
+    //            }
+    //        });
+    //    });
+    //});
+
+</script>
