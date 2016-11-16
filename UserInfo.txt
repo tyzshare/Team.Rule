@@ -1,0 +1,19 @@
+if exists (select 1
+            from  sysobjects
+           where  id = object_id('UserInfo')
+            and   type = 'U')
+   drop table UserInfo
+go
+
+/*==============================================================*/
+/* Table: UserInfo                                              */
+/*==============================================================*/
+create table UserInfo (
+   Id                   bigint               identity,
+   LoginEmail           varchar(100)         null,
+   LoginPwd             varchar(100)         null,
+   CreatorId            bigint               not null default 0,
+   CreateTime           datetime             not null default getdate(),
+   constraint PK_USERINFO primary key (Id)
+)
+go
