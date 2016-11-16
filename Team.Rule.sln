@@ -25,6 +25,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Rule.WebApi[sure]", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Rule.WebApi.Tests", "Team.Rule.WebApi.Tests\Team.Rule.WebApi.Tests.csproj", "{4E2E530F-6756-4321-9AF5-BA12149C7294}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{9B32EA92-A03C-406E-9FC3-D1106F1CC17C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inner", "Inner", "{315902F7-6F4F-4DA2-9E59-DE71D7FF7519}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{E2A11FB1-D6B8-47CE-88B4-5A6863DE78D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{800F6FE5-65D6-4354-8B62-EF1C0F15EF9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,49 +84,13 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{C9EA67D3-21DE-4D28-8298-D618A2433EAC} = {9B32EA92-A03C-406E-9FC3-D1106F1CC17C}
 		{BD13DF0B-C6CA-4DAA-8C78-42ABDF9BDC35} = {D1E118C3-C8ED-4C0C-975D-7420AB6F4430}
+		{36ED5CA3-0C74-42F8-AD48-7815286A0315} = {9B32EA92-A03C-406E-9FC3-D1106F1CC17C}
+		{BD024017-FA7C-4D5F-9CA6-DD123AA742E5} = {9B32EA92-A03C-406E-9FC3-D1106F1CC17C}
 		{BA2A038D-5ACB-4DB3-8C36-540915ACADB5} = {D1E118C3-C8ED-4C0C-975D-7420AB6F4430}
 		{ADC7C4E3-BE11-4269-B5B4-B29D68D11810} = {D1E118C3-C8ED-4C0C-975D-7420AB6F4430}
+		{E4FC1690-7F8B-41CD-840A-D18EAAD8F04F} = {E2A11FB1-D6B8-47CE-88B4-5A6863DE78D6}
 		{4E2E530F-6756-4321-9AF5-BA12149C7294} = {D1E118C3-C8ED-4C0C-975D-7420AB6F4430}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 11
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://192.168.1.70:8080/tfs/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Team.Rule.Dto\\Team.Rule.Dto【sure】.csproj
-		SccProjectName1 = Team.Rule.Dto
-		SccLocalPath1 = Team.Rule.Dto
-		SccProjectUniqueName2 = Team.Rule.Entity\\Team.Rule.Entity【sure】.csproj
-		SccProjectName2 = Team.Rule.Entity
-		SccLocalPath2 = Team.Rule.Entity
-		SccProjectUniqueName3 = Team.Rule.Web.Tests\\Team.Rule.Web.Tests.csproj
-		SccProjectTopLevelParentUniqueName3 = Team.Rule.sln
-		SccProjectName3 = Team.Rule.Web.Tests
-		SccLocalPath3 = Team.Rule.Web.Tests
-		SccProjectUniqueName4 = Team.Rule.Common\\Team.Rule.Common【sure】.csproj
-		SccProjectName4 = Team.Rule.Common
-		SccLocalPath4 = Team.Rule.Common
-		SccProjectUniqueName5 = Team.Rule.Business\\Team.Rule.Business【sure】.csproj
-		SccProjectName5 = Team.Rule.Business
-		SccLocalPath5 = Team.Rule.Business
-		SccProjectUniqueName6 = Team.Rule.Web\\Team.Rule.Web【sure】.csproj
-		SccProjectName6 = Team.Rule.Web
-		SccLocalPath6 = Team.Rule.Web
-		SccProjectUniqueName7 = Team.Rule.ConsoleApplication.Tests\\Team.Rule.ConsoleApplication.Tests.csproj
-		SccProjectTopLevelParentUniqueName7 = Team.Rule.sln
-		SccProjectName7 = Team.Rule.ConsoleApplication.Tests
-		SccLocalPath7 = Team.Rule.ConsoleApplication.Tests
-		SccProjectUniqueName8 = Team.Rule.WinForm.Tests\\Team.Rule.WinForm.Tests.csproj
-		SccProjectTopLevelParentUniqueName8 = Team.Rule.sln
-		SccProjectName8 = Team.Rule.WinForm.Tests
-		SccLocalPath8 = Team.Rule.WinForm.Tests
-		SccProjectUniqueName9 = Team.Rule.WebApi.Tests\\Team.Rule.WebApi.Tests.csproj
-		SccProjectTopLevelParentUniqueName9 = Team.Rule.sln
-		SccProjectName9 = Team.Rule.WebApi.Tests
-		SccLocalPath9 = Team.Rule.WebApi.Tests
-		SccProjectUniqueName10 = Team.Rule.WebApi\\Team.Rule.WebApi[sure].csproj
-		SccProjectName10 = Team.Rule.WebApi
-		SccLocalPath10 = Team.Rule.WebApi
 	EndGlobalSection
 EndGlobal

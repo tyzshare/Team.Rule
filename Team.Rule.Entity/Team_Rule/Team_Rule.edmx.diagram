@@ -6,7 +6,6 @@
     <edmx:Diagrams>
       <Diagram DiagramId="483718a80a55402f80e4fc040c540a0f" Name="Diagram1">
         <EntityTypeShape EntityType="Test_RuleModel.UserInfo" Width="1.5" PointX="0.75" PointY="0.75" />
-        <EntityTypeShape EntityType="Test_RuleModel.Roles" Width="1.5" PointX="0.75" PointY="3.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -26,6 +26,5 @@ namespace Team.Rule.Entity.Team_Rule
         }
     
         public virtual DbSet<UserInfo> UserInfo { get; set; }
-        public virtual DbSet<Roles> Roles { get; set; }
     }
 }
