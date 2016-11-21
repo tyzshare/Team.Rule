@@ -13,7 +13,7 @@ namespace Team.Rule.Web.Tests
         {
             //var user = UserCache.GetUserInfo(75);
 
-            string result = PaymentService.Payment(9033294, "ddddd", "ssss", 9033294, 10, XYY.PaymentSystem.DTO.MoneyType.Point);
+            //string result = PaymentService.Payment(9033294, "ddddd", "ssss", 9033294, 10, XYY.PaymentSystem.DTO.MoneyType.Point);
         }
     }
 }

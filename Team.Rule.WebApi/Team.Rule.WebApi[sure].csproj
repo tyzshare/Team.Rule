@@ -48,6 +48,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=5.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.5.1.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Jin.Tools, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Jin.Tools.1.0.0.2\lib\net45\Jin.Tools.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.0.1011, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -330,17 +338,17 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Team.Rule.Business\Team.Rule.Business【sure】.csproj">
+    <ProjectReference Include="..\Team.Rule.Business\Team.Rule.Business【业务层】.csproj">
       <Project>{36ed5ca3-0c74-42f8-ad48-7815286a0315}</Project>
-      <Name>Team.Rule.Business【sure】</Name>
+      <Name>Team.Rule.Business【业务层】</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Team.Rule.Common\Team.Rule.Common【sure】.csproj">
+    <ProjectReference Include="..\Team.Rule.Common\Team.Rule.Common【公共层】.csproj">
       <Project>{0fddab22-42c5-4c90-893e-7da66b205854}</Project>
-      <Name>Team.Rule.Common【sure】</Name>
+      <Name>Team.Rule.Common【公共层】</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Team.Rule.Dto\Team.Rule.Dto【sure】.csproj">
+    <ProjectReference Include="..\Team.Rule.Dto\Team.Rule.Dto【传输模型】.csproj">
       <Project>{bd024017-fa7c-4d5f-9ca6-dd123aa742e5}</Project>
-      <Name>Team.Rule.Dto【sure】</Name>
+      <Name>Team.Rule.Dto【传输模型】</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

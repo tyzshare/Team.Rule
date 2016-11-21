@@ -95,21 +95,12 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
-    <Reference Include="XYY.PaymentSystem, Version=1.0.0.30, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\XYY.PaymentSystem.1.0.0.30\lib\net45\XYY.PaymentSystem.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="XYY.PaymentSystem.DTO, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\XYY.PaymentSystem.1.0.0.30\lib\net45\XYY.PaymentSystem.DTO.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="UnitTest_JP.cs" />
-    <Compile Include="UnitTest_DXK.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -118,25 +109,25 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Team.Rule.Business\Team.Rule.Business【sure】.csproj">
+    <ProjectReference Include="..\Team.Rule.Business\Team.Rule.Business【业务层】.csproj">
       <Project>{36ed5ca3-0c74-42f8-ad48-7815286a0315}</Project>
-      <Name>Team.Rule.Business【sure】</Name>
+      <Name>Team.Rule.Business【业务层】</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Team.Rule.Common\Team.Rule.Common【sure】.csproj">
+    <ProjectReference Include="..\Team.Rule.Common\Team.Rule.Common【公共层】.csproj">
       <Project>{0fddab22-42c5-4c90-893e-7da66b205854}</Project>
-      <Name>Team.Rule.Common【sure】</Name>
+      <Name>Team.Rule.Common【公共层】</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Team.Rule.Dto\Team.Rule.Dto【sure】.csproj">
+    <ProjectReference Include="..\Team.Rule.Dto\Team.Rule.Dto【传输模型】.csproj">
       <Project>{bd024017-fa7c-4d5f-9ca6-dd123aa742e5}</Project>
-      <Name>Team.Rule.Dto【sure】</Name>
+      <Name>Team.Rule.Dto【传输模型】</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Team.Rule.Entity\Team.Rule.Entity【sure】.csproj">
+    <ProjectReference Include="..\Team.Rule.Entity\Team.Rule.Entity【领域模型】.csproj">
       <Project>{655beb02-6c5b-4ce6-a2ad-18b7dd5092f2}</Project>
-      <Name>Team.Rule.Entity【sure】</Name>
+      <Name>Team.Rule.Entity【领域模型】</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Team.Rule.Web\Team.Rule.Web【sure】.csproj">
+    <ProjectReference Include="..\Team.Rule.Web\Team.Rule.Web【站点】.csproj">
       <Project>{C9EA67D3-21DE-4D28-8298-D618A2433EAC}</Project>
-      <Name>Team.Rule.Web【sure】</Name>
+      <Name>Team.Rule.Web【站点】</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

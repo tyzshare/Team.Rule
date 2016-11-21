@@ -14,7 +14,7 @@ namespace Team.Rule.Business
         /// <param name="message">异常信息</param>
         public void Throw(string message = null)
         {
-            throw new BusinessException(message == null ? "参数异常" : message); 
+            throw new BusinessException(message == null ? "异常" : message); 
         }
     }
 }

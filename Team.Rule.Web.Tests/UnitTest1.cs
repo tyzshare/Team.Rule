@@ -9,7 +9,7 @@ namespace Team.Rule.Web.Tests
         [TestMethod]
         public void TestMethod1()
         {
-           var dd=  DateTime.Now.ToyyyyMMdd();
+           //var dd=  DateTime.Now.ToyyyyMMdd();
         }
     }
 }

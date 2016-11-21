@@ -1,6 +1,4 @@
-﻿using Abp.Application.Services;
-using AutoMapper;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +14,7 @@ namespace Team.Rule.Business
         #region 创建用户信息
         public void CreateUserInfo(UserInfoDto dto)
         {
-            dto.Validate();
+            //dto.Validate();
             var user = AutoMapperHelper.MapTo<UserInfo>(dto);
             user.CreateTime = DateTime.Now;
             ThreadCache.dbContext_Test_Rule.UserInfo.Add(user);

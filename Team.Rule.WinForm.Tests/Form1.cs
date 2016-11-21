@@ -21,7 +21,7 @@ namespace Team.Rule.WinForm.Tests
         private void button1_Click(object sender, EventArgs e)
         {
             //JJ().Wait();
-            StaticClass.dic.Add(1, "jinpeng");
+            StaticClass.dic.Add(1, "tyzshare");
         }
 
         private async void button2_Click(object sender, EventArgs e)
@@ -69,8 +69,8 @@ namespace Team.Rule.WinForm.Tests
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            StaticClass.dic.Add(1, "jinpeng");
-            MessageBox.Show("静态类的字典添加jinpeng成功");
+            StaticClass.dic.Add(1, "tyzshare");
+            MessageBox.Show("静态类的字典添加tyzshare成功");
         }
 
         private void btn2_Click(object sender, EventArgs e)
