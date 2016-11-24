@@ -8,6 +8,9 @@ using System.Web;
 
 namespace Team.Rule
 {
+    /// <summary>
+    /// 线程缓存
+    /// </summary>
     public static class ThreadCache
     {
         /// <summary>

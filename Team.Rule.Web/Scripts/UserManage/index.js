@@ -14,29 +14,24 @@
         //},
 
         /*3：将校验规则，提示信息都写到js中*/
-        //rules: {
-        //    LoginEmail: { email: true },
-        //    LoginPwd: { rangelength: [8, 16] },
-        //},
-        //messages: {
-        //    LoginEmail: { email: "请输入有效邮箱" },
-        //    LoginPwd: { rangelength: "密码长度8-16位，建议大小写，特殊字符拼写" },  
-        //},
+        rules: {
+            LoginEmail: { required: true, email: true },
+            LoginPwd: { required: true, rangelength: [8, 16] },
+        },
+        messages: {
+            LoginEmail: { required: "登陆邮箱不能为空", email: "请输入有效邮箱" },
+            LoginPwd: { required: "登陆密码不能为空", rangelength: "密码长度8-16位，建议大小写，特殊字符拼写" },
+        },
 
         submitHandler: function () {
-            debugger
             $.post("/usermanage/insertuserinfo", { "LoginEmail": $("#txt_LoginEmail").val(), "LoginPwd": $("#txt_LoginPwd").val() }, function (data) {
                 debugger
-                //layer.msg(data.message);
-                _alert(data.message)
-                Load(1);
-                //if (data.IsSuccess) {
-                //    layer.msg(data.Message);
-                //    Load(1);
-                //}
-                //else {
-                //    layer.msg(data.Message);
-                //}
+                if (data.success) {
+                    Load(1);
+                }
+                else {
+                    _alert(data.message);
+                }
             });
         }
     });
@@ -47,8 +42,6 @@ function Load(pageIndex) {
     var colspanNum = $("#pr").parent().find('tr').eq(0).find("td").length;
     $("#pr").html('<tr><td colspan=' + colspanNum + '><center><img src="http://js.xueyiyun.com/common/layer/admin/v1.0/skin/default/loading-2.gif"/></center><td></tr>');
     $("#pr").load("/usermanage/loaduserinfolist", { "pageIndex": pageIndex }, function () {
-        //var html = '@Html.Raw(Html.Pager(Model.pi.PageSize, Model.pi.PageIndex, Model.pi.ItemCount, new { }, true, "Load"))';
-        //$(".page-div").html(html);
     });
 }
 

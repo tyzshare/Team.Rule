@@ -14,11 +14,19 @@ namespace Team.Rule.Business
         #region 创建用户信息
         public void CreateUserInfo(UserInfoDto dto)
         {
+            if (string.IsNullOrEmpty(dto.LoginEmail))
+            {
+                Throw("登陆邮箱不能为空！");
+            }
+            if (string.IsNullOrEmpty(dto.LoginPwd))
+            {
+                Throw("登陆密码不能为空！");
+            }
             //dto.Validate();
             var user = AutoMapperHelper.MapTo<UserInfo>(dto);
             user.CreateTime = DateTime.Now;
-            ThreadCache.dbContext_Test_Rule.UserInfo.Add(user);
-            ThreadCache.dbContext_Test_Rule.SaveChanges();
+            dbContent.UserInfo.Add(user);
+            dbContent.SaveChanges();
         }
         #endregion
 
@@ -27,7 +35,7 @@ namespace Team.Rule.Business
         public IPageResult<UserInfoDto> QueryUserInfoList(int pageIndex = 1, int pageSize = Config.PageSize)
         {
 
-            var result = ThreadCache.dbContext_Test_Rule.UserInfo.OrderByDescending(o => o.CreateTime).Select(o =>
+            var result = dbContent.UserInfo.OrderByDescending(o => o.CreateTime).Select(o =>
                 new UserInfoDto()
                 {
                     Id = o.Id,
@@ -46,7 +54,7 @@ namespace Team.Rule.Business
             {
                 Throw();
             }
-            ThreadCache.dbContext_Test_Rule.Database.ExecuteSqlCommand("delete from userinfo where id=@p0", id);
+            dbContent.Database.ExecuteSqlCommand("delete from userinfo where id=@p0", id);
         }
         #endregion
     }

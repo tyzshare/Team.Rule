@@ -13,11 +13,12 @@ namespace Team.Rule.Web
     {
         protected void Application_Start()
         {
+            //读取log4net配置
+            log4net.Config.XmlConfigurator.Configure();
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            GlobalConfiguration.Configure(WebApiConfig.Register);
         }
     }
 }

@@ -7,12 +7,16 @@ using System.Web.Mvc;
 
 namespace Team.Rule.Web.Controllers
 {
+    /// <summary>
+    /// 基础控制器
+    /// </summary>
     public class BaseController : Controller
     {
         /// <summary>
-        /// 返回给前台的正确信息
+        /// 返回给前台Json格式的正确信息
         /// </summary>
-        /// <param name="message"></param>
+        /// <param name="result">结果</param>
+        /// <param name="message">信息</param>
         /// <returns></returns>
         public JsonResult Success(object result = null, string message = null)
         {

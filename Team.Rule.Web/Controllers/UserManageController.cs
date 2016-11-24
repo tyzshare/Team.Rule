@@ -16,6 +16,7 @@ namespace Team.Rule.Web.Controllers
         // GET: UserManage
         public ActionResult Index()
         {
+            //throw new Exception("程序出现错误！！！");
             return View();
         }
 

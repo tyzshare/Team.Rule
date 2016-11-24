@@ -19,8 +19,7 @@
             {
                 currentPage=@Model.PageIndex;
                 var html = '@Html.Raw(Html.Pager(Model.PageSize, Model.PageIndex, Model.TotalCount, new { }, true, "Load"))';
-                debugger    
-            $(".page-div").html(html);
+                $(".page-div").html(html);
             }
             else
             {
