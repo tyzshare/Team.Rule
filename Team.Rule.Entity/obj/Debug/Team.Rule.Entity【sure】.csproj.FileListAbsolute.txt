@@ -1,0 +1,12 @@
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\bin\Debug\Team.Rule.Entity.dll.config
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\bin\Debug\Team.Rule.Entity.dll
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\bin\Debug\Team.Rule.Entity.pdb
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\bin\Debug\EntityFramework.dll
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\bin\Debug\EntityFramework.xml
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\obj\Debug\Team.Rule.Entity.dll
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\obj\Debug\Team.Rule.Entity.pdb
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\obj\Debug\Team.Rule.Entity【sure】.csprojResolveAssemblyReference.cache

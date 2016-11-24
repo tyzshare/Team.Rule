@@ -1,0 +1,9 @@
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Common\bin\Debug\Team.Rule.Common.dll
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Common\bin\Debug\Team.Rule.Common.pdb
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Common\bin\Debug\AutoMapper.dll
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Common\bin\Debug\Jin.Tools.dll
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Common\bin\Debug\AutoMapper.xml
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Common\bin\Debug\Jin.Tools.xml
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Common\obj\Debug\Team.Rule.Common【公共层】.csprojResolveAssemblyReference.cache
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Common\obj\Debug\Team.Rule.Common.dll
+C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Common\obj\Debug\Team.Rule.Common.pdb
