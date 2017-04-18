@@ -1,0 +1,6 @@
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\bin\Debug\Team.Rule.ConsoleApplication.Tests.exe.config
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\bin\Debug\Team.Rule.ConsoleApplication.Tests.exe
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\bin\Debug\Team.Rule.ConsoleApplication.Tests.pdb
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\obj\Debug\Team.Rule.ConsoleApplication.Tests.csprojResolveAssemblyReference.cache
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\obj\Debug\Team.Rule.ConsoleApplication.Tests.exe
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\obj\Debug\Team.Rule.ConsoleApplication.Tests.pdb

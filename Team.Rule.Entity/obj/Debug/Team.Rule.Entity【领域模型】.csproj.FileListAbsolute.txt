@@ -10,3 +10,15 @@ C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\bin\Debug\zh-Hans\En
 C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\obj\Debug\Team.Rule.Entity【领域模型】.csprojResolveAssemblyReference.cache
 C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\obj\Debug\Team.Rule.Entity.dll
 C:\Users\PC-JinPeng\Source\Repos\Team.Rule\Team.Rule.Entity\obj\Debug\Team.Rule.Entity.pdb
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\Team.Rule.Entity.dll.config
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\Team.Rule.Entity.dll
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\Team.Rule.Entity.pdb
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\EntityFramework.dll
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\EntityFramework.SqlServer.dll
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\EntityFramework.xml
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\EntityFramework.SqlServer.xml
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\obj\Debug\Team.Rule.Entity【领域模型】.csprojResolveAssemblyReference.cache
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\obj\Debug\Team.Rule.Entity.dll
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\obj\Debug\Team.Rule.Entity.pdb
