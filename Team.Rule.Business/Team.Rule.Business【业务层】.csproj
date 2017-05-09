@@ -102,6 +102,7 @@
   <ItemGroup>
     <Compile Include="BaseService.cs" />
     <Compile Include="Caches\UserCache.cs" />
+    <Compile Include="Dto\CreateUserInfoDto.cs" />
     <Compile Include="EntityService\UserInfoService.cs" />
     <Compile Include="Exception\BusinessException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

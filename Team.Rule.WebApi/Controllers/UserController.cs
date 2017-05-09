@@ -37,8 +37,15 @@ namespace Team.Rule.WebApi.Controllers
 
         //[HttpPost]
         // POST api/user
-        public void Post([FromBody]string value)
+        [HttpGet]
+        public void Post()
         {
+            new UserInfoService().CreateUserInfo(new CreateUserInfoDto()
+            {
+                CreatorId = 1,
+                LoginEmail = "",
+                LoginPwd = string.Empty
+            });
         }
 
         //[HttpPut]

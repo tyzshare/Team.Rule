@@ -19,7 +19,7 @@ namespace Team.Rule.Business
 
 
         /// <summary>
-        /// 抛出异常
+        /// 抛出业务异常信息
         /// </summary>
         /// <param name="message">异常信息</param>
         public void Throw(string message = null)

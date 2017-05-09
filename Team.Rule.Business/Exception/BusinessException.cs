@@ -13,10 +13,15 @@ namespace System
     {
         public BusinessException(string message) : base(message)
         {
+
         }
-        public static void Throw(string message)
-        {
-            throw new BusinessException(message);
-        }
+        ///// <summary>
+        ///// 抛出业务异常信息
+        ///// </summary>
+        ///// <param name="message"></param>
+        //public static void Throw(string message)
+        //{
+        //    throw new BusinessException(message);
+        //}
     }
 }

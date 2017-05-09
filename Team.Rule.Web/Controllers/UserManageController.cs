@@ -32,7 +32,7 @@ namespace Team.Rule.Web.Controllers
         /// </summary>
         /// <param name="user"></param>
         /// <returns></returns>
-        public JsonResult InsertUserInfo(UserInfoDto user)
+        public JsonResult InsertUserInfo(CreateUserInfoDto user)
         {
             new UserInfoService().CreateUserInfo(user);
             return Success();

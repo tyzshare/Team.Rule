@@ -1,9 +1,0 @@
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\bin\Debug\Team.Rule.WinForm.Tests.exe.config
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\bin\Debug\Team.Rule.WinForm.Tests.exe
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\bin\Debug\Team.Rule.WinForm.Tests.pdb
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.csprojResolveAssemblyReference.cache
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.Form1.resources
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.Properties.Resources.resources
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.csproj.GenerateResource.Cache
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.exe
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.pdb

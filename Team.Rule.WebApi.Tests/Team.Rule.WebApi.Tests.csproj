@@ -117,9 +117,9 @@
       <Project>{bd024017-fa7c-4d5f-9ca6-dd123aa742e5}</Project>
       <Name>Team.Rule.Dto【传输模型】</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Team.Rule.WebApi\Team.Rule.WebApi[sure].csproj">
+    <ProjectReference Include="..\Team.Rule.WebApi\Team.Rule.WebApi[Api站点].csproj">
       <Project>{E4FC1690-7F8B-41CD-840A-D18EAAD8F04F}</Project>
-      <Name>Team.Rule.WebApi[sure]</Name>
+      <Name>Team.Rule.WebApi[Api站点]</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

@@ -12,21 +12,23 @@ namespace Team.Rule.Business
     public class UserInfoService : BaseService
     {
         #region 创建用户信息
-        public void CreateUserInfo(UserInfoDto dto)
+        public bool CreateUserInfo(CreateUserInfoDto dto)
         {
-            if (string.IsNullOrEmpty(dto.LoginEmail))
-            {
-                Throw("登陆邮箱不能为空！");
-            }
-            if (string.IsNullOrEmpty(dto.LoginPwd))
-            {
-                Throw("登陆密码不能为空！");
-            }
+
+            throw new Exception("abc");
             //dto.Validate();
+            int a = 1, b = 0;
+            var result = a / b;
+
+            //业务：创建新用户的登陆邮箱不能重复
+            if (dbContent.UserInfo.Any(o => o.LoginEmail == dto.LoginEmail))
+            {
+                Throw("登陆邮箱不能重复！");
+            }
             var user = AutoMapperHelper.MapTo<UserInfo>(dto);
             user.CreateTime = DateTime.Now;
             dbContent.UserInfo.Add(user);
-            dbContent.SaveChanges();
+            return dbContent.SaveChanges() > 0;
         }
         #endregion
 

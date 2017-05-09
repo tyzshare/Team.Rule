@@ -8,7 +8,7 @@ namespace Team.Rule.WebApi
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            //filters.Add(new Team.Rule.WebApi.Filters.HandleErrorAttribute());
+            filters.Add(new Team.Rule.WebApi.Filters.HandleErrorAttribute());
             //filters.Add(new HandleErrorAttribute());
 
 
