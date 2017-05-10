@@ -36,7 +36,7 @@ namespace Team.Rule.WebApi.Controllers
         // DELETE api/values/5
         public void Delete(int id)
         {
-            new UserInfoService().DeleteUserInfo(id);
+            new UserService().DeleteUser(new DeleteUserInputDto() { Id = id });
         }
     }
 }

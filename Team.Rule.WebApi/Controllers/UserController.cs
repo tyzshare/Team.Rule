@@ -29,9 +29,9 @@ namespace Team.Rule.WebApi.Controllers
         //}
 
         //[HttpGet]
-        public IPageResult<UserInfoDto> Get(int pageIndex, int pageSize)
+        public IPageResult<QueryUsersOutput> Get(int pageIndex, int pageSize)
         {
-            var result = new UserInfoService().QueryUserInfoList(pageIndex, pageSize);
+            var result = new UserService().QueryUsers(new QueryUsersInputDto() { PageIndex = pageIndex, PageSize = pageSize });
             return result;
         }
 
@@ -40,7 +40,7 @@ namespace Team.Rule.WebApi.Controllers
         [HttpGet]
         public void Post()
         {
-            new UserInfoService().CreateUserInfo(new CreateUserInfoDto()
+            new UserService().CreateUser(new CreateUserInputDto()
             {
                 CreatorId = 1,
                 LoginEmail = "",
@@ -58,7 +58,7 @@ namespace Team.Rule.WebApi.Controllers
         //[HttpDelete]
         public void Delete([FromBody]TestModel model)
         {
-            new UserInfoService().DeleteUserInfo(model.Id);
+            new UserService().DeleteUser(new DeleteUserInputDto() { Id = model.Id });
         }
 
 
@@ -66,7 +66,7 @@ namespace Team.Rule.WebApi.Controllers
         //[HttpDelete]
         public void Delete(int id)
         {
-            new UserInfoService().DeleteUserInfo(id);
+            new UserService().DeleteUser(new DeleteUserInputDto() { Id = id });
         }
 
         public class TestModel

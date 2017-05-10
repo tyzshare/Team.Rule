@@ -9,15 +9,9 @@ namespace Team.Rule.Business.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            try
-            {
-                new UserInfoService().CreateUserInfo(new CreateUserInfoDto() { LoginEmail = "jinpeng19@163.com", LoginPwd = "sdfdfsdfsf" });
-            }
-            catch (Exception ex)
-            {
+            //var result = new UserService().CreateUser(new CreateUserInputDto() { LoginEmail = "jinpeng19@163.com", LoginPwd = "12345678" });
 
-            }
-
+            var result = new UserService().QueryUsers(new QueryUsersInputDto() { PageIndex = 1, PageSize = 10 });
         }
     }
 }

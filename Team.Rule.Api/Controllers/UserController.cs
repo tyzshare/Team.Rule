@@ -8,6 +8,9 @@ using Team.Rule.Business;
 
 namespace Team.Rule.Api.Controllers
 {
+    /// <summary>
+    /// 用户相关Api
+    /// </summary>
     public class UserController : ApiBaseController
     {
         /// <summary>
@@ -15,10 +18,10 @@ namespace Team.Rule.Api.Controllers
         /// </summary>
         /// <param name="dto">创建用户传输模型</param>
         /// <returns></returns>
-        //[HttpPost]
-        //public Response<bool> CreateUserInfo(CreateUserInfoDto dto)
-        //{
-        //    return Success(new UserInfoService().CreateUserInfo(dto));
-        //}
+        [HttpPost]
+        public Response<bool> CreateUser(CreateUserInputDto dto)
+        {
+            return Success(new UserService().CreateUser(dto));
+        }
     }
 }

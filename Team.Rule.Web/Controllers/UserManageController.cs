@@ -22,7 +22,7 @@ namespace Team.Rule.Web.Controllers
 
         public PartialViewResult LoadUserInfoList(int pageIndex)
         {
-            var result = new UserInfoService().QueryUserInfoList(pageIndex);
+            var result = new UserService().QueryUsers(new QueryUsersInputDto() { PageIndex = pageIndex, PageSize = Config.PageSize });
             return PartialView("_UserInfoListControl", result);
         }
 
@@ -32,9 +32,9 @@ namespace Team.Rule.Web.Controllers
         /// </summary>
         /// <param name="user"></param>
         /// <returns></returns>
-        public JsonResult InsertUserInfo(CreateUserInfoDto user)
+        public JsonResult InsertUserInfo(CreateUserInputDto user)
         {
-            new UserInfoService().CreateUserInfo(user);
+            new UserService().CreateUser(user);
             return Success();
         }
         #endregion
@@ -47,7 +47,7 @@ namespace Team.Rule.Web.Controllers
         /// <returns></returns>
         public JsonResult DeleteUserInfo(long id)
         {
-            new UserInfoService().DeleteUserInfo(id);
+            new UserService().DeleteUser(new DeleteUserInputDto() { Id = id });
             return Success();
         }
         #endregion

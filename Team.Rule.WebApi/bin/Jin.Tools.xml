@@ -1,0 +1,639 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Jin.Tools</name>
+    </assembly>
+    <members>
+        <member name="M:System.AutoMapperHelper.MapTo``1(System.Object)">
+            <summary>
+             类型映射
+            </summary>
+        </member>
+        <member name="M:System.AutoMapperHelper.MapToList``1(System.Collections.IEnumerable)">
+            <summary>
+            集合列表类型映射
+            </summary>
+        </member>
+        <member name="T:System.CacheFactory">
+            <summary>
+            缓存工厂
+            </summary>
+        </member>
+        <member name="P:System.CacheFactory.ExpireTime">
+            <summary>
+            获取或设置过期时间
+            </summary>
+        </member>
+        <member name="M:System.CacheFactory.CreateCache``2">
+            <summary>
+            创建一个缓存
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:System.CacheFactory.CreateExpireCache``2">
+            <summary>
+            创建一个过期缓存
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:System.ClearExpireEventArgs`1">
+            <summary>
+            为清理过期数据提供事件参数
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:System.ClearExpireEventArgs`1.Item">
+            <summary>
+            过期数据
+            </summary>
+        </member>
+        <member name="T:System.ExpireEventArgs`1">
+            <summary>
+            为过期数据提供事件参数
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:System.ExpireEventArgs`1.Old">
+            <summary>
+            旧数据
+            </summary>
+        </member>
+        <member name="P:System.ExpireEventArgs`1.New">
+            <summary>
+            新数据
+            </summary>
+        </member>
+        <member name="F:System.ExpireItem`1._processExpire">
+            <summary>
+            是否需要处理过期数据
+            </summary>
+        </member>
+        <member name="F:System.ExpireItem`1._expire">
+            <summary>
+            数据是否过期
+            </summary>
+        </member>
+        <member name="P:System.ExpireMemoryCache`2.ExpireTime">
+            <summary>
+            获取或设置过期时间
+            </summary>
+        </member>
+        <member name="P:System.ExpireMemoryCache`2.Item(`0)">
+            <summary>
+            获取数据,没有返回默认值
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="E:System.ExpireMemoryCache`2.OnClearExpire">
+            <summary>
+            当清理数据过期的时候触发
+            </summary>
+        </member>
+        <member name="T:System.ICache`2">
+            <summary>
+            一个接口,表示缓存
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+        </member>
+        <member name="P:System.ICache`2.Count">
+            <summary>
+            获取当前缓存的数量
+            </summary>
+        </member>
+        <member name="M:System.ICache`2.ContainsKey(`0)">
+            <summary>
+            是否包含键
+            </summary>
+        </member>
+        <member name="M:System.ICache`2.Get(`0,System.Func{`1})">
+            <summary>
+            查询缓存
+            </summary>
+            <param name="key"></param>
+            <param name="factory"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ICache`2.GetAsync(`0,System.Func{System.Threading.Tasks.Task{`1}})">
+            <summary>
+            查询缓存
+            </summary>
+            <param name="key"></param>
+            <param name="factory"></param>
+            <returns></returns>
+        </member>
+        <member name="P:System.ICache`2.Item(`0)">
+            <summary>
+            获取数据,没有返回默认值
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ICache`2.Flush">
+            <summary>
+            清空缓存
+            </summary>
+        </member>
+        <member name="M:System.ICache`2.Update(`0,`1)">
+            <summary>
+            更新缓存
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ICache`2.Add(`0,`1)">
+            <summary>
+            添加缓存
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ICache`2.AddOrUpdate(`0,`1)">
+            <summary>
+            添加或更新缓存
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ICache`2.Remove(`0)">
+            <summary>
+            移除缓存
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.CacheFactoryExtensions.CreateMemoryCache``2(System.ICacheFactory)">
+            <summary>
+            创建一个内存缓存
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:System.CacheFactoryExtensions.CreateExpireMemoryCache``2(System.ICacheFactory)">
+            <summary>
+            创建一个过期内存缓存
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:System.CacheFactoryExtensions.CreateExpireMemoryCache``2(System.ICacheFactory,System.TimeSpan)">
+            <summary>
+            创建一个过期缓存,并指定过期时间
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:System.IDataItem`1">
+            <summary>
+            一个接口,支持数据
+            </summary>
+        </member>
+        <member name="T:System.IExpireCache`2">
+            <summary>
+            一个接口,支持过期缓存
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+        </member>
+        <member name="P:System.IExpireCache`2.ExpireTime">
+            <summary>
+            获取或设置过期时间
+            </summary>
+        </member>
+        <member name="E:System.IExpireCache`2.OnExpire">
+            <summary>
+            当数据过期的时候触发
+            </summary>
+        </member>
+        <member name="E:System.IExpireCache`2.OnClearExpire">
+            <summary>
+            当清理数据过期的时候触发
+            </summary>
+        </member>
+        <member name="P:System.IExpireCache`2.Async">
+            <summary>
+            获取或设置一个值,指示当数据过期的时候是否使用异步处理数据
+            </summary>
+        </member>
+        <member name="T:System.IExpireItem`1">
+            <summary>
+            一个接口,支持过期数据
+            </summary>
+        </member>
+        <member name="P:System.IExpireItem`1.Expire">
+            <summary>
+            获取一个指,指示数据是否过期
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="E:System.IExpireItem`1.OnExpire">
+            <summary>
+            当数据过期的时候触发
+            </summary>
+        </member>
+        <member name="P:System.MemoryCache`2.Item(`0)">
+            <summary>
+            获取数据,没有返回默认值
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.GeneralComparer">
+            <summary>
+            提供通用相等比较方法
+            </summary>
+        </member>
+        <member name="M:System.GeneralComparer.On``1(System.Func{``0,``0,System.Int32})">
+            <summary>
+            提供通用相等比较方法
+            </summary>
+        </member>
+        <member name="M:System.GeneralComparer.On``1(``0,System.Func{``0,``0,System.Int32})">
+            <summary>
+            提供通用相等比较方法
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <param name="keySelector"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.GeneralComparer.OnIEnumerable``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,System.Int32})">
+            <summary>
+            提供通用相等比较方法
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <param name="keySelector"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.GeneralComparer.On(System.Func{System.Object,System.Object,System.Int32})">
+            <summary>
+            提供通用相等比较方法
+            </summary>
+        </member>
+        <member name="T:System.GeneralComparer`1">
+            <summary>
+            提供通用相等比较方法
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="TKey"></typeparam>
+        </member>
+        <member name="M:System.GeneralComparer`1.OnInternal(System.Func{`0,`0,System.Int32})">
+             <summary>
+            提供通用比较方法
+             </summary>
+        </member>
+        <member name="M:System.GeneralComparer`1.On(System.Func{`0,`0,System.Int32})">
+            <summary>
+            提供一个比较器
+            </summary>
+        </member>
+        <member name="T:System.GeneralEqualityComparer">
+            <summary>
+            提供通用相等比较方法
+            </summary>
+        </member>
+        <member name="M:System.GeneralEqualityComparer.On``1(System.Func{``0,System.Object})">
+            <summary>
+            提供一个比较器
+            </summary>
+        </member>
+        <member name="M:System.GeneralEqualityComparer.On``1(``0,System.Func{``0,System.Object})">
+            <summary>
+            提供一个比较器
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <param name="keySelector"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.GeneralEqualityComparer.OnIEnumerable``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Object})">
+            <summary>
+            提供一个比较器
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <param name="keySelector"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.GeneralEqualityComparer`1">
+            <summary>
+            提供通用相等比较方法
+            </summary>
+        </member>
+        <member name="M:System.GeneralEqualityComparer`1.On(System.Func{`0,System.Object})">
+            <summary>
+            提供一个比较器
+            </summary>
+        </member>
+        <member name="T:System.GetConfigMsgHelper">
+            <summary>
+            获取配置文件中的某些信息
+            </summary>
+        </member>
+        <member name="M:System.EnumDescriptionAttribute.GetDescription(System.Type,System.Object)">
+            <summary>
+            通过类型和枚举值返回对应的描述
+            </summary>
+            <param name="type"></param>
+            <param name="enumValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.EnumExtensions.GetDescription(System.Enum,System.Boolean)">
+            <summary>
+            获取当前Enum的描述(DescriptionAttribute)
+            </summary>
+            <param name="value">枚举值</param>
+            <param name="nameInstead">当枚举值没有定义DescriptionAttribute,是否使用枚举名代替,默认是使用</param>
+            <returns>枚举的Description</returns>
+        </member>
+        <member name="M:System.EnumExtensions.GetEnumDescription(System.Enum,System.Boolean)">
+            <summary>
+            通过类型和枚举值返回对应的描述(EnumDescriptionAttribute)
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExpressionExtensions.GetConvertToDataTable(System.Type)">
+            <summary>
+            对象转换为DataTable
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="M:System.IEnumerableExtensions.ToDataTable(System.Collections.IEnumerable)">
+            <summary>
+            将集合转换成<see cref="T:System.Data.DataTable" />
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IEnumerableExtensions.ToDataTable(System.Collections.IEnumerable,System.String)">
+            <summary>
+            将集合转换成<see cref="T:System.Data.DataTable" />,并指定表名
+            </summary>
+            <param name="source"></param>
+            <param name="tableName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IEnumerableExtensions.ToDataTable``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.IDictionary{``0,``1}})">
+            <summary>
+            将集合转换成<see cref="T:System.Data.DataTable" />
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IEnumerableExtensions.ToDataTable``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.IDictionary{``0,``1}},System.String)">
+            <summary>
+            将集合转换成<see cref="T:System.Data.DataTable" />,并指定表名
+            </summary>
+            <param name="source"></param>
+            <param name="tableName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.FileOperateHelper.DeleteFile(System.String)">
+            <summary>
+            删除文件
+            </summary>
+            <param name="FileFullPath">文件的全路径.</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:System.FileOperateHelper.GetFileName(System.String)">
+            <summary>
+            获取文件名（包含扩展名）
+            </summary>
+            <param name="FileFullPath">文件全路径</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:System.FileOperateHelper.GetFileExtension(System.String)">
+            <summary>
+            获取文件文件扩展名
+            </summary>
+            <param name="FileFullPath">文件全路径</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:System.FileOperateHelper.GetFileName(System.String,System.Boolean)">
+            <summary>
+            获取文件名（可包含扩展名）
+            </summary>
+            <param name="FileFullPath">文件全路径</param>
+            <param name="IncludeExtension">是否包含扩展名</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:System.FileOperateHelper.OpenFile(System.String)">
+            <summary>
+            根据传来的文件全路径，外部打开文件，默认用系统注册类型关联软件打开
+            </summary>
+            <param name="FileFullPath">文件的全路径</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:System.FileOperateHelper.GetFileSize(System.String)">
+            <summary>
+            获取文件大小
+            </summary>
+            <param name="FileFullPath">文件全路径</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:System.FileOperateHelper.FileToStreamByte(System.String)">
+            <summary>
+            文件转换成二进制，返回二进制数组Byte[]
+            </summary>
+            <param name="FileFullPath">文件全路径</param>
+            <returns>byte[] 包含文件流的二进制数组</returns>
+        </member>
+        <member name="M:System.FileOperateHelper.ByteStreamToFile(System.String,System.Byte[])">
+            <summary>
+            二进制数组Byte[]生成文件
+            </summary>
+            <param name="FileFullPath">要生成的文件全路径</param>
+            <param name="StreamByte">要生成文件的二进制 Byte 数组</param>
+            <returns>bool 是否生成成功</returns>
+        </member>
+        <member name="M:System.FileOperateHelper.WriteFile(System.String,System.String)">
+            <summary>
+            写文件
+            </summary>
+            <param name="Path">文件路径</param>
+            <param name="Strings">文件内容</param>
+        </member>
+        <member name="M:System.FileOperateHelper.ReadFile(System.String)">
+            <summary>
+            读文件
+            </summary>
+            <param name="Path">文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.FileOperateHelper.FileAdd(System.String,System.String)">
+            <summary>
+            追加文本
+            </summary>
+            <param name="Path">文件路径</param>
+            <param name="strings">内容</param>
+        </member>
+        <member name="M:System.FileOperateHelper.SerializeXml(System.String)">
+            <summary>
+            将Xml文件序列化(可起到加密和压缩XML文件的目的)
+            </summary>
+            <param name="FileFullPath">要序列化的XML文件全路径</param>
+            <returns>bool 是否序列化成功</returns>
+        </member>
+        <member name="M:System.FileOperateHelper.DeSerializeXml(System.String)">
+            <summary>
+            反序列化XML文件
+            </summary>
+            <param name="FileFullPath">要反序列化XML文件的全路径</param>
+            <returns>bool 是否反序列化XML文件</returns>
+        </member>
+        <member name="M:System.FileOperateHelper.CompressFile(System.String,System.String)">
+            <summary>
+            压缩文件
+            </summary>
+            <param name="sourceFile">源文件</param>
+            <param name="destinationFile">目标文件</param>
+        </member>
+        <member name="M:System.FileOperateHelper.DeCompressFile(System.String,System.String)">
+            <summary>
+            解压文件
+            </summary>
+            <param name="sourceFile">源文件</param>
+            <param name="destinationFile">目标文件</param>
+        </member>
+        <member name="T:System.IPageResult">
+            <summary>
+            一个接口,表示一个分页结果集
+            </summary>
+        </member>
+        <member name="P:System.IPageResult.PageIndex">
+            <summary>
+            获取当前页码
+            </summary>
+        </member>
+        <member name="P:System.IPageResult.PageSize">
+            <summary>
+            每页显示数
+            </summary>
+        </member>
+        <member name="P:System.IPageResult.TotalCount">
+            <summary>
+            获取数据总数
+            </summary>
+        </member>
+        <member name="P:System.IPageResult.PageCount">
+            <summary>
+            获取分页总数
+            </summary>
+        </member>
+        <member name="P:System.IPageResult.ItemCount">
+            <summary>
+            获取当前集合的数量
+            </summary>
+        </member>
+        <member name="T:System.IPageResult`1">
+            <summary>
+            一个接口,表示一个分页结果集
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:System.PageResult.Create``1(System.Collections.Generic.ICollection{``0},System.Int32,System.Int32,System.Int32)">
+            <summary>
+            创建一个IPageResult
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="items"></param>
+            <param name="page"></param>
+            <param name="pagesize"></param>
+            <param name="totalItems"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.PageResult`1">
+            <summary>
+            表示一个包含分页结果的集合
+            </summary>
+        </member>
+        <member name="P:System.PageResult`1.Items">
+            <summary>
+            获取分页的集合
+            </summary>
+        </member>
+        <member name="P:System.PageResult`1.PageIndex">
+            <summary>
+            获取当前页码
+            </summary>
+        </member>
+        <member name="P:System.PageResult`1.PageSize">
+            <summary>
+            每页显示数
+            </summary>
+        </member>
+        <member name="P:System.PageResult`1.TotalCount">
+            <summary>
+            获取数据总数
+            </summary>
+        </member>
+        <member name="P:System.PageResult`1.PageCount">
+            <summary>
+            获取分页总数
+            </summary>
+        </member>
+        <member name="M:System.PageResultExtensions.GetPageData``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Int32)">
+            <summary>
+            从<see cref="T:System.Collections.Generic.IEnumerable`1" />创建一个<see cref="T:System.IPageResult`1" />
+            </summary>
+            <typeparam name="TSource"></typeparam>
+            <param name="source"></param>
+            <param name="page"></param>
+            <param name="pagesize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.PageResultExtensions.ToPage``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Int32)">
+            <summary>
+            从<see cref="T:System.Collections.Generic.IEnumerable`1" />创建一个<see cref="T:System.IPageResult`1" />
+            </summary>
+            <typeparam name="TSource"></typeparam>
+            <param name="source"></param>
+            <param name="page"></param>
+            <param name="pagesize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.PageResultExtensions.ToPage``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Int32,System.Int32)">
+            <summary>
+            从<see cref="T:System.Collections.Generic.IEnumerable`1" />创建一个<see cref="T:System.IPageResult`1" />
+            </summary>
+            <typeparam name="TSource"></typeparam>
+            <param name="source"></param>
+            <param name="page"></param>
+            <param name="pagesize"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.IValidate">
+            <summary>
+            需要校验接口
+            </summary>
+        </member>
+        <member name="M:System.ValidateExtensions.Validate``1(``0)">
+            <summary>
+            校验
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="validate"></param>
+        </member>
+        <member name="M:System.ValidateExtensions.CreateValidateExpression``1">
+            <summary>
+            创建一个验证委托
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
