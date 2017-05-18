@@ -6,12 +6,13 @@ using System.Web.Http;
 using System.Web.Http.Results;
 using Team.Rule.Business;
 
+
 namespace Team.Rule.Api.Controllers
 {
     /// <summary>
     /// 用户相关Api
     /// </summary>
-    public class UserController : ApiBaseController
+    public class UserController : ApiController
     {
         /// <summary>
         /// 创建用户
@@ -19,9 +20,15 @@ namespace Team.Rule.Api.Controllers
         /// <param name="dto">创建用户传输模型</param>
         /// <returns></returns>
         [HttpPost]
-        public Response<bool> CreateUser(CreateUserInputDto dto)
+        public bool CreateUser(CreateUserInputDto dto)
         {
-            return Success(new UserService().CreateUser(dto));
+            return true;
+        }
+
+
+        public IEnumerable<string> Get()
+        {
+            return new string[] { "value1", "value2" };
         }
     }
 }

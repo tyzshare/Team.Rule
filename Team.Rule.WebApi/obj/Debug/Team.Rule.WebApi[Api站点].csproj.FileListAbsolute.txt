@@ -42,6 +42,8 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Microsoft.Owin.Security.Twit
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Microsoft.Web.Infrastructure.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Newtonsoft.Json.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Owin.dll
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Swagger.Net.dll
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Swashbuckle.Core.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\System.Net.Http.Formatting.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\System.Web.Helpers.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\System.Web.Http.dll
@@ -56,6 +58,8 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\System.Web.WebPages.Razor.dl
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Team.Rule.Business.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Team.Rule.Common.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Team.Rule.Dto.dll
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\WebActivator.dll
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\WebActivatorEx.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\WebGrease.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Team.Rule.Entity.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Team.Rule.Business.pdb
@@ -69,6 +73,8 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Microsoft.AI.Web.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Microsoft.AI.WindowsServer.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Microsoft.ApplicationInsights.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Swagger.Net.pdb
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Swagger.Net.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\Newtonsoft.Json.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\System.Net.Http.Formatting.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi\bin\System.Web.Helpers.xml
