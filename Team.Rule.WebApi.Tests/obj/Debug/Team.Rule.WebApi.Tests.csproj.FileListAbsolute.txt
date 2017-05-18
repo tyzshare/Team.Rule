@@ -32,7 +32,6 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\Team.Rule.Entity
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\Jin.Tools.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\EntityFramework.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\Microsoft.Owin.dll
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\System.Web.Optimization.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\Microsoft.Owin.Security.dll
@@ -59,7 +58,6 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\Team.Rule.Entity
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\Jin.Tools.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\EntityFramework.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\Microsoft.Owin.xml
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\System.Web.Optimization.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\Microsoft.Owin.Security.xml
@@ -79,7 +77,6 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\zh-Hans\System.W
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\zh-Hans\Microsoft.Owin.resources.dll
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\zh-Hans\Microsoft.Owin.Security.resources.dll
@@ -88,3 +85,5 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\zh-Hans\System.W
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\obj\Debug\Team.Rule.WebApi.Tests.csprojResolveAssemblyReference.cache
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\obj\Debug\Team.Rule.WebApi.Tests.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\obj\Debug\Team.Rule.WebApi.Tests.pdb
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\WebActivatorEx.dll
+E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\bin\Debug\Swashbuckle.Core.dll
