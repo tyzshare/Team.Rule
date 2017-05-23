@@ -20,7 +20,7 @@ namespace Team.Rule.Business
         public bool CreateUser(CreateUserInputDto dto)
         {
             dto.Validate();
-
+            
             //业务：创建新用户的登陆邮箱不能重复
             if (dbContent.UserInfo.Any(o => o.LoginEmail == dto.LoginEmail))
             {
