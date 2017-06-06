@@ -40,13 +40,10 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web.Tests\bin\Debug\ServiceStack.Interf
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web.Tests\bin\Debug\ServiceStack.Text.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web.Tests\bin\Debug\ServiceStack.Common.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web.Tests\bin\Debug\Team.Rule.Business.pdb
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web.Tests\bin\Debug\Team.Rule.Business.dll.config
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web.Tests\bin\Debug\Team.Rule.Common.pdb
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web.Tests\bin\Debug\Team.Rule.Dto.pdb
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web.Tests\bin\Debug\Team.Rule.Entity.pdb
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web.Tests\bin\Debug\Team.Rule.Entity.dll.config
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web.Tests\bin\Debug\Team.Rule.Web.pdb
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web.Tests\bin\Debug\Team.Rule.Web.dll.config
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web.Tests\bin\Debug\EntityFramework.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web.Tests\bin\Debug\EntityFramework.SqlServer.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web.Tests\bin\Debug\Newtonsoft.Json.xml

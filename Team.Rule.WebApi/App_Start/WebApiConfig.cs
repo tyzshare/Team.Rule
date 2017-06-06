@@ -27,6 +27,7 @@ namespace Team.Rule.WebApi
                 defaults: new { id = RouteParameter.Optional }
             );
 
+            //给WebApi站点添加异常处理
             config.Filters.Add(new WebApiHandleErrorAttribute());
         }
     }

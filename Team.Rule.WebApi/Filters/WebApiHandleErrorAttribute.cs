@@ -14,7 +14,7 @@ namespace Team.Rule.WebApi.Filters
 
         public override void OnException(HttpActionExecutedContext actionExecutedContext)
         {
-
+            //异常信息
             string message = actionExecutedContext.Exception.Message;
 
             if (actionExecutedContext.Exception is BusinessException)

@@ -61,7 +61,6 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business\bin\Debug\Team.Rule.Entity.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business\bin\Debug\Team.Rule.Common.pdb
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business\bin\Debug\Team.Rule.Dto.pdb
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business\bin\Debug\Team.Rule.Entity.pdb
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business\bin\Debug\Team.Rule.Entity.dll.config
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business\bin\Debug\AutoMapper.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business\bin\Debug\Castle.Core.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business\bin\Debug\Castle.Facilities.Logging.xml

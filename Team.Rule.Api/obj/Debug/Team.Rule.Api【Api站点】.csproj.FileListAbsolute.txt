@@ -66,7 +66,6 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\WebGrease.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\Team.Rule.Entity.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\Team.Rule.Dto.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\Team.Rule.Business.pdb
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\Team.Rule.Business.dll.config
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\AutoMapper.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\log4net.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\Microsoft.AI.DependencyCollector.xml
@@ -108,7 +107,6 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\Microsoft.Owin.Security.Twitter
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\System.Web.Http.Owin.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\Team.Rule.Entity.pdb
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\Team.Rule.Entity.dll.config
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\Team.Rule.Dto.pdb
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Api\bin\zh-Hans\System.Web.Helpers.resources.dll

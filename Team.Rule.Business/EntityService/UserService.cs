@@ -9,6 +9,9 @@ using System.Data.Entity;
 
 namespace Team.Rule.Business
 {
+    /// <summary>
+    /// 用户相关服务
+    /// </summary>
     public class UserService : BaseService
     {
         #region 创建用户信息
@@ -19,12 +22,14 @@ namespace Team.Rule.Business
         /// <returns></returns>
         public bool CreateUser(CreateUserInputDto dto)
         {
+            //模型校验
             dto.Validate();
             
-            //业务：创建新用户的登陆邮箱不能重复
+            //业务校验：创建新用户的登陆邮箱不能重复
             if (dbContent.UserInfo.Any(o => o.LoginEmail == dto.LoginEmail))
             {
-                Throw("登陆邮箱不能重复！");
+                //抛出业务异常
+                Throw("登陆邮箱已经存在！");
             }
             var user = AutoMapperHelper.MapTo<UserInfo>(dto);
             user.CreateTime = DateTime.Now;

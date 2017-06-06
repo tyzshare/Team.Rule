@@ -14,7 +14,6 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\Team.Rule.Busi
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\Team.Rule.Entity.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\Team.Rule.Dto.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\Team.Rule.Business.pdb
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\Team.Rule.Business.dll.config
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\AutoMapper.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\EntityFramework.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\EntityFramework.SqlServer.xml
@@ -22,7 +21,6 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\ServiceStack.C
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\ServiceStack.Redis.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\ServiceStack.Text.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\Team.Rule.Entity.pdb
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\Team.Rule.Entity.dll.config
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\Team.Rule.Dto.pdb
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Business.Tests\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll

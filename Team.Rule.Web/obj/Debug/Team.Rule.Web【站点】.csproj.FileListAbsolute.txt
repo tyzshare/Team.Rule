@@ -187,7 +187,6 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\Team.Rule.Dto.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\WebGrease.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\Team.Rule.Entity.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\Team.Rule.Business.pdb
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\Team.Rule.Business.dll.config
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\Team.Rule.Common.pdb
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\Team.Rule.Dto.pdb
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\AutoMapper.xml
@@ -228,7 +227,6 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\Microsoft.Owin.Security.Google.
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\Microsoft.Owin.Security.Twitter.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\Team.Rule.Entity.pdb
-E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\Team.Rule.Entity.dll.config
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\zh-Hans\System.Web.Http.resources.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll

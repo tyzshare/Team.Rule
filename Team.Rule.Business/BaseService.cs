@@ -13,7 +13,7 @@ namespace Team.Rule.Business
     public class BaseService
     {
         /// <summary>
-        /// 实体上下文
+        /// DB上下文
         /// </summary>
         protected Test_Rule dbContent = ThreadCache.dbContext_Test_Rule;
 
