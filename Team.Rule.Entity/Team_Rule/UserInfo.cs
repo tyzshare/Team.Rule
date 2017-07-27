@@ -11,13 +11,13 @@ namespace Team.Rule.Entity.Team_Rule
 {
     using System;
     using System.Collections.Generic;
-    
+
     public partial class UserInfo
     {
         public long Id { get; set; }
-        public string LoginEmail { get; set; }
-        public string LoginPwd { get; set; }
+        public string LoginEmail { get; set; } = string.Empty;
+        public string LoginPwd { get; set; } = string.Empty;
         public long CreatorId { get; set; }
-        public System.DateTime CreateTime { get; set; }
+        public System.DateTime CreateTime { get; set; } = DateTime.Now;
     }
 }

@@ -1,1 +1,2 @@
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\obj\Debug\Team.Rule.WebApi.Tests.csprojResolveAssemblyReference.cache
+F:\Public\Team.Rule\Team.Rule\Team.Rule.WebApi.Tests\obj\Debug\Team.Rule.WebApi.Tests.csprojResolveAssemblyReference.cache

@@ -7,3 +7,12 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinFo
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.csproj.GenerateResource.Cache
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.exe
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.pdb
+F:\Public\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\bin\Debug\Team.Rule.WinForm.Tests.exe.config
+F:\Public\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\bin\Debug\Team.Rule.WinForm.Tests.exe
+F:\Public\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\bin\Debug\Team.Rule.WinForm.Tests.pdb
+F:\Public\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.csprojResolveAssemblyReference.cache
+F:\Public\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.Form1.resources
+F:\Public\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.Properties.Resources.resources
+F:\Public\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.csproj.GenerateResource.Cache
+F:\Public\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.exe
+F:\Public\Team.Rule\Team.Rule\Team.Rule.WinForm.Tests\obj\Debug\Team.Rule.WinForm.Tests.pdb

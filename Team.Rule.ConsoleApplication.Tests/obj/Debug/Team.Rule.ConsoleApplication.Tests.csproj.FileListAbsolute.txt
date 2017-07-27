@@ -4,3 +4,9 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\bin\Debug\Team
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\obj\Debug\Team.Rule.ConsoleApplication.Tests.csprojResolveAssemblyReference.cache
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\obj\Debug\Team.Rule.ConsoleApplication.Tests.exe
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\obj\Debug\Team.Rule.ConsoleApplication.Tests.pdb
+F:\Public\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\bin\Debug\Team.Rule.ConsoleApplication.Tests.exe.config
+F:\Public\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\bin\Debug\Team.Rule.ConsoleApplication.Tests.exe
+F:\Public\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\bin\Debug\Team.Rule.ConsoleApplication.Tests.pdb
+F:\Public\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\obj\Debug\Team.Rule.ConsoleApplication.Tests.csprojResolveAssemblyReference.cache
+F:\Public\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\obj\Debug\Team.Rule.ConsoleApplication.Tests.exe
+F:\Public\Team.Rule\Team.Rule\Team.Rule.ConsoleApplication.Tests\obj\Debug\Team.Rule.ConsoleApplication.Tests.pdb
