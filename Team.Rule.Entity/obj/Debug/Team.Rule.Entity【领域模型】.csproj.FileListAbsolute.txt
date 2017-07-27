@@ -22,3 +22,14 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\zh-Hans\EntityFramewor
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\obj\Debug\Team.Rule.Entity【领域模型】.csprojResolveAssemblyReference.cache
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\obj\Debug\Team.Rule.Entity.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Entity\obj\Debug\Team.Rule.Entity.pdb
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\Team.Rule.Entity.dll.config
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\Team.Rule.Entity.dll
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\Team.Rule.Entity.pdb
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\EntityFramework.dll
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\EntityFramework.SqlServer.dll
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\EntityFramework.xml
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\EntityFramework.SqlServer.xml
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Entity\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Entity\obj\Debug\Team.Rule.Entity.dll
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Entity\obj\Debug\Team.Rule.Entity.pdb

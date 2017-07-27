@@ -16,3 +16,12 @@ E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Common\bin\Debug\Jin.Tools.xml
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Common\obj\Debug\Team.Rule.Common【公共层】.csprojResolveAssemblyReference.cache
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Common\obj\Debug\Team.Rule.Common.dll
 E:\JinPeng\Team.Rule\Team.Rule\Team.Rule.Common\obj\Debug\Team.Rule.Common.pdb
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Common\bin\Debug\Team.Rule.Common.dll
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Common\bin\Debug\Team.Rule.Common.pdb
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Common\bin\Debug\AutoMapper.dll
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Common\bin\Debug\Jin.Tools.dll
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Common\bin\Debug\AutoMapper.xml
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Common\bin\Debug\Jin.Tools.xml
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Common\obj\Debug\Team.Rule.Common【公共层】.csprojResolveAssemblyReference.cache
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Common\obj\Debug\Team.Rule.Common.dll
+F:\Public\Team.Rule\Team.Rule\Team.Rule.Common\obj\Debug\Team.Rule.Common.pdb
